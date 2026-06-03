@@ -47,11 +47,14 @@ export function ArticleStructuredData({
 	const structuredData = {
 		'@context': 'https://schema.org',
 		'@type': 'Article',
+		'@id': `${articleUrl}#article`,
+		url: articleUrl,
 		headline: frontmatter.title,
 		description: frontmatter.description,
-		image: frontmatter.image || `${siteUrl}/default-article-image.jpg`,
+		image: frontmatter.image || `${siteUrl}/images/hero.webp`,
 		datePublished: frontmatter.date,
 		dateModified: ('lastModified' in frontmatter && frontmatter.lastModified) || frontmatter.date,
+		inLanguage: locale,
 		author: {
 			'@type': 'Organization',
 			name: 'Rayman Legends Retold Wiki Team',
@@ -59,9 +62,10 @@ export function ArticleStructuredData({
 		publisher: {
 			'@type': 'Organization',
 			name: 'Rayman Legends Retold Wiki',
+			url: siteUrl,
 			logo: {
 				'@type': 'ImageObject',
-				url: `${siteUrl}/images/hero.webp`,
+				url: `${siteUrl}/android-chrome-512x512.png`,
 			},
 		},
 		mainEntityOfPage: {

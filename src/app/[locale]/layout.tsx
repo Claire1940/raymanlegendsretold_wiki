@@ -38,13 +38,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const siteUrl =
     process.env.NEXT_PUBLIC_SITE_URL || "https://raymanlegendsretold.wiki";
+  const imageUrl = `${siteUrl}/images/hero.webp`;
 
   // 获取 SEO 翻译
   const t = await getTranslations("seo.home");
 
   return {
+    metadataBase: new URL(siteUrl),
+    applicationName: "Rayman Legends Retold Wiki",
     title: t("title"),
     description: t("description"),
+    keywords: t("keywords"),
     robots: {
       index: true,
       follow: true,
@@ -65,7 +69,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       description: t("ogDescription"),
       images: [
         {
-          url: `${siteUrl}/images/hero.webp`,
+          url: imageUrl,
           width: 1920,
           height: 1080,
           alt: "Rayman Legends Retold key art",
@@ -76,7 +80,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       card: "summary_large_image",
       title: t("twitterTitle"),
       description: t("twitterDescription"),
-      images: [`${siteUrl}/images/hero.webp`],
+      images: [imageUrl],
       creator: "@RaymanGame",
     },
     icons: {

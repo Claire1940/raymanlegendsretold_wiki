@@ -14,6 +14,9 @@ export function ListStructuredData({ contentType, locale, items }: ListStructure
 	const structuredData = {
 		'@context': 'https://schema.org',
 		'@type': 'ItemList',
+		'@id': `${listUrl}#itemlist`,
+		url: listUrl,
+		name: `Rayman Legends Retold ${contentType}`,
 		itemListElement: items.map((item, index) => ({
 			'@type': 'ListItem',
 			position: index + 1,

@@ -8,6 +8,8 @@ interface CTASectionProps {
   description: string;
   joinCommunity: string;
   joinGame: string;
+  communityHref: string;
+  gameHref: string;
 }
 
 export default function CTASection({
@@ -15,6 +17,8 @@ export default function CTASection({
   description,
   joinCommunity,
   joinGame,
+  communityHref,
+  gameHref,
 }: CTASectionProps) {
   return (
     <section className="px-4 py-14 md:py-20">
@@ -32,7 +36,7 @@ export default function CTASection({
               className="bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)] text-white px-6 md:px-8 py-5 md:py-6 text-base md:text-lg"
             >
               <a
-                href="https://discord.com/invite/lucidblocks"
+                href={communityHref}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -41,7 +45,7 @@ export default function CTASection({
               </a>
             </Button>
             <a
-              href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+              href={gameHref}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md border border-border hover:bg-white/10 px-6 md:px-8 py-5 md:py-6 text-base md:text-lg font-medium transition-colors"

@@ -37,8 +37,8 @@
     "badge": "Reimagined 3D Platform Adventure",
     "title": "Rayman Legends Retold Wiki",
     "description": "Track Rayman Legends Retold release date, platforms, editions, co-op features, new realms, musical stages, PC requirements, and pre-order bonuses.",
-    "getFreeCodesCTA": "View Editions",
-    "playOnSteamCTA": "Pre-order on Steam",
+    "getFreeCodesCTA": "Visit Rayman Legends Retold on Ubisoft",
+    "playOnSteamCTA": "Pre-order Rayman Legends Retold on Steam",
     "stats": {
       "stat1": {
         "value": "Oct 1, 2026",
@@ -785,27 +785,27 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Track Rayman Legends Retold Before Launch",
+    "description": "Follow official Rayman channels for trailer drops, preorder updates, and platform news before Rayman Legends Retold launches on October 1, 2026.",
+    "joinCommunity": "Join Rayman on Discord",
+    "joinGame": "Pre-order Rayman Legends Retold on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Rayman Legends Retold Wiki",
+    "description": "Your fan-made hub for Rayman Legends Retold release tracking, editions, co-op details, trailers, and platform guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
     "discord": "Discord",
     "twitter": "X / Twitter",
-    "steamCommunity": "Steam Community",
+    "steamCommunity": "Reddit Community",
     "steamStore": "Steam Store",
     "about": "About",
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyright": "© 2026 Rayman Legends Retold Wiki. Unofficial and not affiliated with Ubisoft.",
+    "disclaimer": "Fan-made reference site covering official Rayman Legends Retold information and community resources."
   },
   "pages": {
     "guides": {
