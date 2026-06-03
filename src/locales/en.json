@@ -10,14 +10,7 @@
       "twitterDescription": "Follow Rayman Legends Retold release date, platforms, co-op, editions, and official trailers."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
