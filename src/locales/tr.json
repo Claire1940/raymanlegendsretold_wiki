@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "description": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları, kontroller, modlar ve topluluk bağlantıları edinin.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, demo indirme, başlangıç rehberi, işbirliği rehberi, üretim, ekipman, modlar, BepInEx, Steam oyunu, gizli oyun",
-      "ogTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "ogDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Steam gizli soygun oyunu için demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri, üretim ipuçları ve modlar edinin.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo İndirme, İşbirliği Rehberi, Üretim & Modlar",
-      "twitterDescription": "Eksiksiz Lucid Blocks kaynak merkezi! Demo indirme bilgileri, başlangıç rehberleri, işbirliği stratejileri ve üretim ipuçları edinin."
+      "title": "Rayman Legends Retold Wiki - cikis tarihi, ortak oynanis ve platformlar",
+      "description": "Rayman Legends Retold Wiki; cikis tarihi, platformlar, ortak oynanis, surumler, on siparis bonuslari, yeni bolumler, muzikli sahneler ve PC gereksinimlerini kapsar.",
+      "keywords": "Rayman Legends Retold, cikis tarihi, platformlar, ortak oynanis, bolumler",
+      "ogTitle": "Rayman Legends Retold Wiki - cikis tarihi, ortak oynanis ve platformlar",
+      "ogDescription": "Rayman Legends Retold icin cikis tarihi, platformlar, surumler, yerel ortak oynanis, yeni diyarlar, fragmanlar ve PC gereksinimlerini takip edin.",
+      "twitterTitle": "Rayman Legends Retold Wiki - cikis tarihi, ortak oynanis ve platformlar",
+      "twitterDescription": "Rayman Legends Retold hakkinda temel bilgiler: cikis, platformlar, ortak oynanis, surumler ve fragmanlar."
     }
   },
   "nav": {
@@ -34,33 +34,33 @@
     "articlesComingSoon": "Makaleler yakında"
   },
   "hero": {
-    "badge": "Ufak cüceler. Büyük evler. Arkadaşlarla gizli soygunlar.",
-    "title": "Lucid Blocks wiki",
-    "description": "Lucid Blocks için merkeziniz: soygunlar nasıl işliyor, Yüksek Cüce işleri, üretim & geliştirmeler, düşmanlar, kontroller ve her koşuda hayatta kalmanın en hızlı yolları.",
-    "getFreeCodesCTA": "Demo İndir",
-    "playOnSteamCTA": "Steam'de İstek Listesine Ekle",
+    "badge": "Yeniden anlatilan 3D platform macerasi",
+    "title": "Rayman Legends Retold Wiki",
+    "description": "Rayman Legends Retold icin cikis tarihi, platformlar, surumler, ortak oynanis ozellikleri, yeni diyarlar, muzikli sahneler, PC gereksinimleri ve on siparis bonuslarini takip edin.",
+    "getFreeCodesCTA": "Surumleri gor",
+    "playOnSteamCTA": "Steam'de on siparis ver",
     "stats": {
       "stat1": {
-        "value": "15B",
-        "label": "En Yüksek Eş Zamanlı Kullanıcı (Demo)"
+        "value": "1 Eki 2026",
+        "label": "Cikis Tarihi"
       },
       "stat2": {
-        "value": "6",
-        "label": "İşbirliği Oyuncusu"
+        "value": "PS5, Xbox, Switch 2, PC",
+        "label": "Platformlar"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo Yayın Tarihi"
+        "value": "4'e kadar",
+        "label": "Yerel Ortak Oynanis"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Platform"
+        "value": "$39.99",
+        "label": "Baslangic Fiyati"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Oynanışı",
-    "description": "Ufak cücelerin kaotik 6 oyunculu işbirliği gizli görevlerinde büyük soygunlar yapmasını izleyin!"
+    "title": "Resmi tanitim fragmani",
+    "description": "Yeni diyarlar, seslendirilmis ara sahneler ve muzikli etaplar iceren Ubisoft resmi Rayman Legends Retold tanitim fragmanini izleyin."
   },
   "tools": {
     "title": "Lucid Blocks",

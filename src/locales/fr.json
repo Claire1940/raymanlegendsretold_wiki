@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "description": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération, des conseils de fabrication, des commandes, des mods et des liens communautaires pour le jeu de braquage furtif sur Steam.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, téléchargement de la démo, guide pour débutants, guide de coopération, fabrication, équipement, mods, BepInEx, jeu Steam, jeu furtif",
-      "ogTitle": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "ogDescription": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération, des conseils de fabrication et des mods pour le jeu de braquage furtif sur Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Téléchargement de la démo, Guide de coopération, Fabrication et Mods",
-      "twitterDescription": "Centre de ressources complet pour Lucid Blocks ! Obtenez des informations sur le téléchargement de la démo, des guides pour débutants, des stratégies de coopération et des conseils de fabrication."
+      "title": "Wiki Rayman Legends Retold - Sortie, coop et plateformes",
+      "description": "Wiki Rayman Legends Retold avec date de sortie, plateformes, cooperation, editions, bonus de precommande, nouveaux niveaux, stages musicaux et configuration PC.",
+      "keywords": "Rayman Legends Retold, date de sortie, plateformes, coop, niveaux",
+      "ogTitle": "Wiki Rayman Legends Retold - Sortie, coop et plateformes",
+      "ogDescription": "Suivez la date de sortie, les plateformes, les editions, le coop local, les nouveaux royaumes, les bandes-annonces et la configuration PC de Rayman Legends Retold.",
+      "twitterTitle": "Wiki Rayman Legends Retold - Sortie, coop et plateformes",
+      "twitterDescription": "Les infos essentielles sur Rayman Legends Retold : sortie, plateformes, coop, editions et bandes-annonces."
     }
   },
   "nav": {
@@ -34,33 +34,33 @@
     "articlesComingSoon": "Articles à venir"
   },
   "hero": {
-    "badge": "Minuscules gnomes. Grandes maisons. Braquages furtifs entre amis.",
-    "title": "Lucid Blocks wiki",
-    "description": "Votre centre pour Lucid Blocks : comment fonctionnent les braquages, les tâches de Haut-Gnome, la fabrication et les améliorations, les ennemis, les commandes et les moyens les plus rapides de survivre à chaque partie.",
-    "getFreeCodesCTA": "Télécharger la démo",
-    "playOnSteamCTA": "Ajouter à la liste de souhaits sur Steam",
+    "badge": "Aventure de plateforme 3D reinventee",
+    "title": "Wiki Rayman Legends Retold",
+    "description": "Suivez la date de sortie, les plateformes, les editions, les fonctions coop, les nouveaux royaumes, les stages musicaux, la configuration PC et les bonus de precommande de Rayman Legends Retold.",
+    "getFreeCodesCTA": "Voir les editions",
+    "playOnSteamCTA": "Precommander sur Steam",
     "stats": {
       "stat1": {
-        "value": "15K",
-        "label": "Pic de CCU (Démo)"
+        "value": "1 oct. 2026",
+        "label": "Date de sortie"
       },
       "stat2": {
-        "value": "6",
-        "label": "Joueurs en coopération"
+        "value": "PS5, Xbox, Switch 2, PC",
+        "label": "Plateformes"
       },
       "stat3": {
-        "value": "31/01/2026",
-        "label": "Sortie de la démo"
+        "value": "Jusqu'a 4",
+        "label": "Coop local"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plateforme"
+        "value": "$39.99",
+        "label": "Prix de depart"
       }
     }
   },
   "gameFeature": {
-    "title": "Gameplay de Lucid Blocks",
-    "description": "Regardez de minuscules gnomes réaliser de gros braquages dans des missions furtives chaotiques en coopération à 6 joueurs !"
+    "title": "Bande-annonce officielle",
+    "description": "Regardez la bande-annonce officielle d'Ubisoft pour Rayman Legends Retold avec de nouveaux royaumes, des cinematiques doublees et des stages musicaux."
   },
   "tools": {
     "title": "Lucid Blocks",

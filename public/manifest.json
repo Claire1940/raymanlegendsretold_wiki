@@ -1,12 +1,24 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "id": "/",
+  "name": "Rayman Legends Retold Wiki - Release, Co-op & Platforms",
+  "short_name": "Rayman Retold",
+  "description": "Track Rayman Legends Retold release date, platforms, editions, co-op features, new realms, musical stages, and pre-order bonuses.",
+  "lang": "en-US",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "theme_color": "#7b2ff7",
+  "background_color": "#090611",
+  "categories": [
+    "games",
+    "entertainment",
+    "news"
+  ],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
@@ -34,6 +46,20 @@
       "src": "/apple-touch-icon.png",
       "sizes": "180x180",
       "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Release & Pre-order",
+      "short_name": "Release",
+      "description": "Check launch date, platforms, and pre-order details.",
+      "url": "/#beginner-guide"
+    },
+    {
+      "name": "Official Trailer",
+      "short_name": "Trailer",
+      "description": "Jump to the official reveal trailer on the homepage.",
+      "url": "/#official-trailer"
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "description": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricação, biomas, conquistas, sobrevivência, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "ogDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas, finais e dicas de sobrevivência para a aventura sandbox de voxel surreal no Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricação, Biomas e Conquistas",
-      "twitterDescription": "A Wiki de Lucid Blocks abrange fabricação, biomas, criaturas, itens, conquistas e dicas de sobrevivência para o sandbox de voxel surreal no Steam."
+      "title": "Wiki de Rayman Legends Retold - lancamento, coop e plataformas",
+      "description": "Wiki de Rayman Legends Retold com data de lancamento, plataformas, coop, edicoes, bonus de pre-venda, novas fases, fases musicais e requisitos para PC.",
+      "keywords": "Rayman Legends Retold, data de lancamento, plataformas, coop, fases",
+      "ogTitle": "Wiki de Rayman Legends Retold - lancamento, coop e plataformas",
+      "ogDescription": "Acompanhe data de lancamento, plataformas, edicoes, coop local, novos reinos, trailers e requisitos para PC de Rayman Legends Retold.",
+      "twitterTitle": "Wiki de Rayman Legends Retold - lancamento, coop e plataformas",
+      "twitterDescription": "Tudo o que importa sobre Rayman Legends Retold: lancamento, plataformas, coop, edicoes e trailers."
     }
   },
   "nav": {
@@ -34,33 +34,33 @@
     "articlesComingSoon": "Artigos em breve"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de Sobrevivência Voxel",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore biomas oníricos, combine itens com Apotheosis, construa livremente e sobreviva a criaturas estranhas neste sandbox surreal de mundo aberto no Steam.",
-    "getFreeCodesCTA": "Explore o Guia de Criação",
-    "playOnSteamCTA": "Jogue no Steam",
+    "badge": "Aventura de plataforma 3D reinventada",
+    "title": "Wiki de Rayman Legends Retold",
+    "description": "Acompanhe data de lancamento, plataformas, edicoes, recursos de coop, novos reinos, fases musicais, requisitos para PC e bonus de pre-venda de Rayman Legends Retold.",
+    "getFreeCodesCTA": "Ver edicoes",
+    "playOnSteamCTA": "Reservar na Steam",
     "stats": {
       "stat1": {
-        "value": "1.325",
-        "label": "Jogadores Online"
+        "value": "1 de out. de 2026",
+        "label": "Data de lancamento"
       },
       "stat2": {
-        "value": "1.986",
-        "label": "Pico de CCU"
+        "value": "PS5, Xbox, Switch 2, PC",
+        "label": "Plataformas"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Avaliações Positivas"
+        "value": "Ate 4",
+        "label": "Coop local"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Data de Lançamento"
+        "value": "$39.99",
+        "label": "Preco inicial"
       }
     }
   },
   "gameFeature": {
-    "title": "Jogabilidade de Lucid Blocks",
-    "description": "Explore biomas surreais, funda itens com Apotheosis e sobreviva a criaturas estranhas neste sandbox de voxel onírico no Steam."
+    "title": "Trailer oficial de revelacao",
+    "description": "Assista ao trailer oficial de revelacao da Ubisoft para Rayman Legends Retold com novos reinos, cenas dubladas e fases musicais."
   },
   "tools": {
     "title": "Lucid Blocks",

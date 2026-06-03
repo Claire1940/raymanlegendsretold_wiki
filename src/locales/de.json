@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "description": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps, Steuerung, Mods und Community-Links für das Steam-Stealth-Heist-Spiel.",
-      "keywords": "Lucid Blocks Wiki, Lucid Blocks, Demo-Download, Anfängerleitfaden, Koop-Leitfaden, Crafting, Ausrüstung, Mods, BepInEx, Steam-Spiel, Stealth-Spiel",
-      "ogTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "ogDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien, Crafting-Tipps und Mods für das Steam-Stealth-Heist-Spiel.",
-      "twitterTitle": "Lucid Blocks Wiki - Demo-Download, Koop-Leitfaden, Crafting & Mods",
-      "twitterDescription": "Vollständige Lucid Blocks Ressourcenzentrale! Hol dir Infos zum Demo-Download, Anfängerleitfäden, Koop-Strategien und Crafting-Tipps."
+      "title": "Rayman Legends Retold Wiki - Release, Koop & Plattformen",
+      "description": "Rayman Legends Retold Wiki mit Release-Datum, Plattformen, Koop, Editionen, Vorbestellerboni, neuen Leveln, Musikstages und PC-Anforderungen.",
+      "keywords": "Rayman Legends Retold, Release-Datum, Plattformen, Koop, Level",
+      "ogTitle": "Rayman Legends Retold Wiki - Release, Koop & Plattformen",
+      "ogDescription": "Verfolge Release-Datum, Plattformen, Editionen, Couch-Koop, neue Welten, Trailer und PC-Anforderungen für Rayman Legends Retold.",
+      "twitterTitle": "Rayman Legends Retold Wiki - Release, Koop & Plattformen",
+      "twitterDescription": "Alle wichtigen Infos zu Rayman Legends Retold: Release, Plattformen, Koop, Editionen und Trailer."
     }
   },
   "nav": {
@@ -34,33 +34,33 @@
     "articlesComingSoon": "Artikel folgen bald"
   },
   "hero": {
-    "badge": "Winzige Gnome. Große Häuser. Stealth-Raubzüge mit Freunden.",
-    "title": "Lucid Blocks Wiki",
-    "description": "Deine zentrale Anlaufstelle für Lucid Blocks: wie die Raubzüge funktionieren, High-Gnome-Aufträge, Crafting & Upgrades, Gegner, Steuerung und die schnellsten Wege, um jeden Durchgang zu überleben.",
-    "getFreeCodesCTA": "Demo herunterladen",
-    "playOnSteamCTA": "Auf die Wunschliste bei Steam",
+    "badge": "Neu erzaehltes 3D-Platform-Abenteuer",
+    "title": "Rayman Legends Retold Wiki",
+    "description": "Verfolge Release-Datum, Plattformen, Editionen, Koop-Features, neue Welten, Musikstages, PC-Anforderungen und Vorbestellerboni für Rayman Legends Retold.",
+    "getFreeCodesCTA": "Editionen ansehen",
+    "playOnSteamCTA": "Auf Steam vorbestellen",
     "stats": {
       "stat1": {
-        "value": "15.000",
-        "label": "Gleichzeitige Spieler (Demo)"
+        "value": "1. Okt. 2026",
+        "label": "Release-Datum"
       },
       "stat2": {
-        "value": "6",
-        "label": "Koop-Spieler"
+        "value": "PS5, Xbox, Switch 2, PC",
+        "label": "Plattformen"
       },
       "stat3": {
-        "value": "31.01.2026",
-        "label": "Demo-Veröffentlichung"
+        "value": "Bis zu 4",
+        "label": "Lokaler Koop"
       },
       "stat4": {
-        "value": "PC (Steam)",
-        "label": "Plattform"
+        "value": "$39.99",
+        "label": "Startpreis"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Sieh dir an, wie winzige Gnome in chaotischen 6-Spieler-Koop-Stealth-Missionen große Raubzüge durchführen!"
+    "title": "Offizieller Reveal-Trailer",
+    "description": "Sieh dir Ubisofts offiziellen Reveal-Trailer zu Rayman Legends Retold mit neuen Welten, vertonten Zwischensequenzen und Musikstages an."
   },
   "tools": {
     "title": "Lucid Blocks",

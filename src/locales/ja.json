@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "description": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, クラフト, バイオーム, 実績, サバイバル, Steam",
-      "ogTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "ogDescription": "Lucid Blocks Wikiでは、Steamで展開される超現実的なボクセルサンドボックスアドベンチャーのクラフト、バイオーム、クリーチャー、アイテム、実績、エンディング、サバイバルのヒントについて解説しています。",
-      "twitterTitle": "Lucid Blocks Wiki - クラフト、バイオーム、実績",
-      "twitterDescription": "Lucid Blocks Wikiでは、Steamの超現実的なボクセルサンドボックスにおけるクラフト、バイオーム、クリーチャー、アイテム、実績、サバイバルのヒントを網羅しています。"
+      "title": "Rayman Legends Retold Wiki - 発売日・協力プレイ・対応機種",
+      "description": "Rayman Legends Retold Wiki。発売日、対応機種、協力プレイ、エディション、予約特典、新ステージ、音楽ステージ、PC要件をまとめています。",
+      "keywords": "Rayman Legends Retold, 発売日, 対応機種, 協力プレイ, ステージ",
+      "ogTitle": "Rayman Legends Retold Wiki - 発売日・協力プレイ・対応機種",
+      "ogDescription": "Rayman Legends Retold の発売日、対応機種、エディション、ローカル協力プレイ、新たな世界、トレーラー、PC要件を追跡できます。",
+      "twitterTitle": "Rayman Legends Retold Wiki - 発売日・協力プレイ・対応機種",
+      "twitterDescription": "Rayman Legends Retold の発売日、対応機種、協力プレイ、エディション、公式トレーラーをチェック。"
     }
   },
   "nav": {
@@ -34,33 +34,33 @@
     "articlesComingSoon": "記事は近日公開予定です"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ ボクセル・サバイバル・サンドボックス",
-    "title": "Lucid Blocks Wiki",
-    "description": "夢のようなバイオームを探索し、Apotheosisでアイテムを融合、自由に建築を楽しみましょう。Steamで繰り広げられるこのシュールなオープンワールド・サンドボックスで、奇妙なクリーチャーから生き延びてください。",
-    "getFreeCodesCTA": "クラフトガイドを見る",
-    "playOnSteamCTA": "Steamでプレイ",
+    "badge": "再構築された3Dプラットフォームアドベンチャー",
+    "title": "Rayman Legends Retold Wiki",
+    "description": "Rayman Legends Retold の発売日、対応機種、エディション、協力プレイ、新たな世界、音楽ステージ、PC要件、予約特典をまとめて追跡できます。",
+    "getFreeCodesCTA": "エディションを見る",
+    "playOnSteamCTA": "Steamで予約",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "オンラインプレイヤー"
+        "value": "2026年10月1日",
+        "label": "発売日"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "最大同時接続数"
+        "value": "PS5、Xbox、Switch 2、PC",
+        "label": "対応機種"
       },
       "stat3": {
-        "value": "97%",
-        "label": "好評"
+        "value": "最大4人",
+        "label": "ローカル協力"
       },
       "stat4": {
-        "value": "2026年3月12日",
-        "label": "リリース日"
+        "value": "$39.99",
+        "label": "開始価格"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks ゲームプレイ",
-    "description": "超現実的なバイオームを探索し、Apotheosis でアイテムを融合。Steam で、奇妙なクリーチャーから生き延びる夢のようなボクセルサンドボックスを体験しましょう。"
+    "title": "公式発表トレーラー",
+    "description": "新たな世界、フルボイスのシネマティック、音楽ステージを映した Ubisoft 公式の Rayman Legends Retold 発表トレーラーです。"
   },
   "tools": {
     "title": "Lucid Blocks",

@@ -1,13 +1,13 @@
 {
   "seo": {
     "home": {
-      "title": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, crafting, biomes, achievements, survival, Steam",
-      "ogTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "ogDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
-      "twitterTitle": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-      "twitterDescription": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, and survival tips for the surreal voxel sandbox on Steam."
+      "title": "Rayman Legends Retold Wiki - Release, Co-op & Platforms",
+      "description": "Rayman Legends Retold Wiki covering release date, platforms, co-op, editions, pre-order bonuses, new levels, musical stages, and PC requirements.",
+      "keywords": "Rayman Legends Retold, release date, platforms, co-op, levels",
+      "ogTitle": "Rayman Legends Retold Wiki - Release, Co-op & Platforms",
+      "ogDescription": "Track Rayman Legends Retold release date, platforms, editions, couch co-op features, new realms, trailers, and PC requirements.",
+      "twitterTitle": "Rayman Legends Retold Wiki - Release, Co-op & Platforms",
+      "twitterDescription": "Follow Rayman Legends Retold release date, platforms, co-op, editions, and official trailers."
     }
   },
   "nav": {
@@ -34,33 +34,33 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Reimagined 3D Platform Adventure",
+    "title": "Rayman Legends Retold Wiki",
+    "description": "Track Rayman Legends Retold release date, platforms, editions, co-op features, new realms, musical stages, PC requirements, and pre-order bonuses.",
+    "getFreeCodesCTA": "View Editions",
+    "playOnSteamCTA": "Pre-order on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "Oct 1, 2026",
+        "label": "Release Date"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "PS5, Xbox, Switch 2, PC",
+        "label": "Platforms"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "Up to 4",
+        "label": "Local Co-op"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "$39.99",
+        "label": "Starting Price"
       }
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Official Reveal Trailer",
+    "description": "Watch Ubisoft's official Rayman Legends Retold reveal trailer with the latest glimpse at the new realms, voiced cinematics, and musical stages."
   },
   "tools": {
     "title": "Lucid Blocks",
