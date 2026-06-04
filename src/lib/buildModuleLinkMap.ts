@@ -14,46 +14,30 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  'release-date-and-platforms': { field: 'items', nameKey: 'platform' },
+  'pre-order-editions-and-bonuses': { field: 'items', nameKey: 'edition' },
+  'gameplay-and-new-features': { field: 'items', nameKey: 'title' },
+  'beginner-guide': { field: 'items', nameKey: 'title' },
+  'walkthrough-and-levels': { field: 'items', nameKey: 'title' },
+  'characters-and-story': { field: 'items', nameKey: 'name' },
+  'co-op-and-kung-foot': { field: 'items', nameKey: 'title' },
+  'pc-requirements-and-languages': { field: 'items', nameKey: 'label' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  'release-date-and-platforms': ['release date', 'launch date', 'platforms', 'ps5', 'switch 2', 'xbox'],
+  'pre-order-editions-and-bonuses': ['pre order', 'deluxe edition', 'launch edition', 'hoodlum havoc', 'retro pack'],
+  'gameplay-and-new-features': ['gameplay', 'new features', 'musical stages', 'dragon rides', 'sixth realm', 'kung foot'],
+  'beginner-guide': ['beginner guide', 'tips and tricks', 'co op', 'teensies', 'lums', 'cave of trials'],
+  'walkthrough-and-levels': ['walkthrough', 'level flow', 'castle rock', 'musical stages', 'dragon rides', 'glade of dreams'],
+  'characters-and-story': ['characters', 'story', 'globox', 'barbara', 'murphy', 'shadowy villain'],
+  'co-op-and-kung-foot': ['co op', '4 player', 'local multiplayer', 'kung foot', 'remote play', 'cross platform'],
+  'pc-requirements-and-languages': ['pc requirements', 'system requirements', 'steam', 'epic games store', 'denuvo', 'languages'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['rayman', 'legends', 'retold', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +61,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of the game name)
+  const strippedQuery = normalizedQuery.replace(/rayman legends retold\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/rayman legends retold\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }

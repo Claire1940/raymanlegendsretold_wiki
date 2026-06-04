@@ -10,7 +10,15 @@
       "twitterDescription": "Follow Rayman Legends Retold release date, platforms, co-op, editions, and official trailers."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "platforms": "Platforms",
+    "preorder": "Preorder",
+    "editions": "Editions",
+    "comparison": "Comparison",
+    "guide": "Guide",
+    "walkthrough": "Walkthrough"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -56,724 +64,682 @@
     "description": "Watch Ubisoft's official Rayman Legends Retold reveal trailer with the latest glimpse at the new realms, voiced cinematics, and musical stages."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Rayman Legends Retold",
+    "titleHighlight": "Modules",
+    "subtitle": "Jump into the main release, platform, and gameplay topics from the homepage.",
     "cards": [
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Calendar",
+        "title": "Release Info",
+        "description": "Rayman Legends Retold launches on October 1, 2026. It is confirmed for PS5, Xbox Series X|S, Nintendo Switch 2, PC, GeForce NOW, and Blacknut."
       },
       {
         "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "title": "Editions",
+        "description": "Rayman Legends Retold has Standard, Deluxe, Launch Edition, and Deluxe Upgrade options. Any pre-order includes the Hoodlum Havoc Pack."
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Sparkles",
+        "title": "Gameplay",
+        "description": "Rayman Legends Retold is a bold 3D reimagining of the 2013 platformer, not just a simple port. It adds new story content, new stages, voiced cinematics, dragon rides, and updated co-op features."
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "BookOpen",
+        "title": "Beginner Guide",
+        "description": "Start with the basics: move cleanly, collect Lums, rescue Teensies, replay stages, and use co-op without losing focus. The game is built for solo players and up to 4-player couch co-op."
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "icon": "Map",
+        "title": "Walkthrough",
+        "description": "Follow the revealed adventure structure: the reimagined Glade of Dreams, returning levels, the sixth realm, musical stages, dragon rides, and Cave of Trials challenges."
       },
       {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
+        "icon": "Users",
+        "title": "Characters",
+        "description": "Meet the confirmed heroes, allies, rescued Teensies, and the new threat behind the retold Glade of Dreams adventure."
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
+        "title": "Multiplayer",
+        "description": "Play the full adventure in couch co-op, compete for Lums and Teensies, then switch into the upgraded Kung Foot party mode."
       },
       {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Monitor",
+        "title": "PC Specs",
+        "description": "Check PC specs, supported languages, account requirements, and store-specific notes before playing on Steam or Epic Games Store."
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
-        {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
-      ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
+    "release-date-and-platforms": {
+      "id": "release-date-and-platforms",
+      "order": 1,
+      "name": "Rayman Legends Retold Release Date and Platforms",
+      "layout": {
+        "type": "table",
+        "desktop": "Full-width comparison table with platform, release date, store access, purchase status, and key notes.",
+        "mobile": "Stacked platform cards with release date and store status shown first."
+      },
+      "eyebrow": "Release Info",
+      "title": "Rayman Legends Retold Release Date and Platforms",
+      "subtitle": "Rayman Legends Retold launches on October 1, 2026. It is confirmed for PS5, Xbox Series X|S, Nintendo Switch 2, PC, GeForce NOW, and Blacknut.",
+      "intro": "Use this quick platform table to check where Rayman Legends Retold is available, which stores support pre-order or wishlist actions, and what each platform listing confirms for launch.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "platform": "PlayStation 5",
+          "release_date": "October 1, 2026",
+          "store": "PlayStation Store",
+          "purchase_status": "Pre-order and wishlist available",
+          "edition_notes": "Standard Edition is $39.99 and Deluxe Edition is $49.99 on PlayStation Store."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "platform": "Xbox Series X|S",
+          "release_date": "October 1, 2026",
+          "store": "Xbox Store",
+          "purchase_status": "Pre-order available",
+          "edition_notes": "Standard Edition is $39.99 and Deluxe Edition is $49.99 on Xbox Store. Xbox listing confirms local multiplayer for 2-4 players."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "platform": "Nintendo Switch 2",
+          "release_date": "October 1, 2026",
+          "store": "Nintendo Switch 2 retail and Ubisoft-supported availability",
+          "purchase_status": "Pre-order supported through official launch channels",
+          "edition_notes": "Ubisoft confirms Switch 2 as a launch platform. The retail Launch Edition includes physical extras."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "platform": "PC",
+          "release_date": "October 1, 2026",
+          "store": "Ubisoft Store, Ubisoft Connect, Steam, and Epic Games Store",
+          "purchase_status": "Pre-purchase and wishlist available on PC stores",
+          "edition_notes": "Steam and Epic list the Standard Edition at $39.99 and the Deluxe Edition at $49.99."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
+          "platform": "Cloud Services",
+          "release_date": "October 1, 2026",
+          "store": "GeForce NOW and Blacknut",
+          "purchase_status": "Confirmed by Ubisoft for launch availability",
+          "edition_notes": "Cloud availability is listed alongside the console and PC launch platforms."
         }
       ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
+      "source_urls": [
+        "https://news.ubisoft.com/en-us/article/2WxMvhIp4tEdeBz8HELI15/rayman-legends-retold-launching-october-1",
+        "https://www.ubisoft.com/en-gb/games/rayman-legends-retold",
+        "https://store.steampowered.com/app/4084710/Rayman_Legends_Retold/",
+        "https://store.epicgames.com/p/rayman-legends-retold?lang=en-US",
+        "https://store.playstation.com/en-us/product/EP0001-PPSA34056_00-STBSTD0000000000/",
+        "https://www.xbox.com/en-US/games/store/rayman-legends-retold/9NMP2PLJN7N9/0017"
       ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
+      "cta": {
+        "label": "Open Rayman Legends Retold Release Date and Platforms",
+        "href": "/release-date-and-platforms"
+      }
     },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+    "pre-order-editions-and-bonuses": {
+      "id": "pre-order-editions-and-bonuses",
+      "order": 2,
+      "name": "Rayman Legends Retold Pre Order Editions and Bonuses",
+      "layout": {
+        "type": "table",
+        "desktop": "Edition comparison table with price, format, included content, and best-use notes.",
+        "mobile": "Accordion-style edition cards with included content expanded by tap."
+      },
+      "eyebrow": "Editions",
+      "title": "Rayman Legends Retold Pre-Order Editions and Bonuses",
+      "subtitle": "Rayman Legends Retold has Standard, Deluxe, Launch Edition, and Deluxe Upgrade options. Any pre-order includes the Hoodlum Havoc Pack.",
+      "intro": "Compare each edition before buying. The core package includes Rayman Legends Retold plus Rayman Origins: Enhanced Edition, while the Deluxe and Launch options add cosmetic or physical extras.",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "edition": "Standard Edition",
+          "format": "Digital and physical availability by platform",
+          "price": "$39.99 / €39.99",
+          "includes": [
+            "Rayman Legends Retold base game",
+            "Rayman Origins: Enhanced Edition",
+            "Hoodlum Havoc Pack when pre-ordered"
+          ],
+          "best_for": "Players who want the full game package at the base price."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "edition": "Deluxe Edition",
+          "format": "Digital only",
+          "price": "$49.99 / €49.99",
+          "includes": [
+            "Rayman Legends Retold base game",
+            "Rayman Origins: Enhanced Edition",
+            "Retro Pack with 4 costumes",
+            "In-game Art Gallery",
+            "Hoodlum Havoc Pack when pre-ordered"
+          ],
+          "best_for": "Players who want the digital extras, classic-inspired costumes, and art gallery."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "edition": "Launch Edition",
+          "format": "Retail only",
+          "price": "Retail edition pricing by store",
+          "includes": [
+            "Rayman Legends Retold base game",
+            "Rayman Origins: Enhanced Edition",
+            "Glade of Dreams printed map",
+            "Set of three lithographs",
+            "Slipcase",
+            "Hoodlum Havoc Pack when pre-ordered"
+          ],
+          "best_for": "Collectors who want physical extras with the launch copy."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
+          "edition": "Deluxe Upgrade Pack",
+          "format": "Digital add-on",
+          "price": "Add-on pricing by store",
+          "includes": [
+            "Retro Pack",
+            "In-game Art Gallery"
+          ],
+          "best_for": "Players who buy the Standard Edition first and want to add the Deluxe extras later."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
+          "edition": "Hoodlum Havoc Pack",
+          "format": "Pre-order bonus for any edition",
+          "price": "Included with pre-order",
+          "includes": [
+            "2 costumes for Rayman and Globox inspired by Rayman 3: Hoodlum Havoc"
+          ],
+          "best_for": "Players who pre-order before launch and want the exclusive costume bonus."
         }
       ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
+      "source_urls": [
+        "https://news.ubisoft.com/en-us/article/2WxMvhIp4tEdeBz8HELI15/rayman-legends-retold-launching-october-1",
+        "https://www.ubisoft.com/en-gb/games/rayman-legends-retold",
+        "https://store.steampowered.com/app/4084710/Rayman_Legends_Retold/",
+        "https://store.epicgames.com/p/rayman-legends-retold?lang=en-US",
+        "https://store.playstation.com/en-us/product/EP0001-PPSA34056_00-STBSTD0000000000/",
+        "https://www.xbox.com/en-US/games/store/rayman-legends-retold/9NMP2PLJN7N9/0017"
+      ],
+      "cta": {
+        "label": "Open Rayman Legends Retold Pre-Order Editions and Bonuses",
+        "href": "/pre-order-editions-and-bonuses"
+      }
     },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
+    "gameplay-and-new-features": {
+      "id": "gameplay-and-new-features",
+      "order": 3,
+      "name": "Rayman Legends Retold Gameplay and New Features",
+      "layout": {
+        "type": "card-list",
+        "desktop": "Three-column feature card grid with short descriptions and player value notes.",
+        "mobile": "Single-column feature cards with compact labels."
+      },
+      "eyebrow": "Gameplay",
+      "title": "Rayman Legends Retold Gameplay and New Features",
+      "subtitle": "Rayman Legends Retold is a bold 3D reimagining of the 2013 platformer, not just a simple port. It adds new story content, new stages, voiced cinematics, dragon rides, and updated co-op features.",
+      "intro": "This module explains what is new in Rayman Legends Retold and how the remake changes the original fast-paced platforming formula while keeping Rayman’s core movement, rhythm stages, co-op chaos, and collectible-focused level design.",
+      "items": [
         {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
+          "title": "Expanded 3D Reimagining",
+          "type": "Release Type",
+          "description": "Rayman Legends Retold rebuilds the classic side-scrolling platformer with stunning 3D visuals, camera movement, and more cinematic presentation.",
+          "player_value": "Good for players who want the familiar Rayman flow with a modern visual style."
         },
         {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
+          "title": "New Retold Story",
+          "type": "Story",
+          "description": "A shadowy villain spreads corruption across the Glade of Dreams, sending Rayman, Globox, Barbara, Grand Minimus, and Murphy on a new adventure.",
+          "player_value": "Gives returning players a fresh reason to replay the world instead of only revisiting old levels."
         },
         {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
+          "title": "Fully Voiced Cinematics",
+          "type": "Presentation",
+          "description": "The game adds voiced cinematics and fully voiced characters, giving the story and cast a more expressive style.",
+          "player_value": "Makes the adventure easier to follow for new players and more lively for co-op groups."
         },
         {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
+          "title": "Sixth Realm and Returning Levels",
+          "type": "World Content",
+          "description": "A rich selection of iconic levels returns alongside a mysterious new sixth realm filled with hidden Teensies and new surprises.",
+          "player_value": "Adds new exploration goals while keeping the collectible-heavy structure fans expect."
+        },
+        {
+          "title": "Four New Musical Stages",
+          "type": "Rhythm Platforming",
+          "description": "New musical stages ask players to time movement with the beat while running, jumping, gliding, and punching through hazards.",
+          "player_value": "Best for players who enjoy rhythm-based platforming and replaying stages for cleaner runs."
+        },
+        {
+          "title": "Dragon Rides and Cave of Trials",
+          "type": "Challenges",
+          "description": "Rayman Legends Retold adds epic dragon rides and Cave of Trials challenges that push movement timing and reaction speed.",
+          "player_value": "Adds higher-skill replay content beyond normal story progression."
+        },
+        {
+          "title": "Up to 4-Player Couch Co-op",
+          "type": "Co-op",
+          "description": "The full adventure supports solo play or up to four players in couch co-op, with players racing for Lums and competing to rescue Teensies.",
+          "player_value": "Ideal for family play, local co-op sessions, and chaotic party-style platforming."
+        },
+        {
+          "title": "Improved Kung Foot",
+          "type": "Party Mode",
+          "description": "Kung Foot returns with improved controls, power-ups, and customizable rules for local competitive play.",
+          "player_value": "Adds a quick side mode for groups who want fast matches outside the main adventure."
         }
       ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
+      "source_urls": [
+        "https://news.ubisoft.com/en-us/article/2WxMvhIp4tEdeBz8HELI15/rayman-legends-retold-launching-october-1",
+        "https://www.ubisoft.com/en-gb/games/rayman-legends-retold",
+        "https://blog.playstation.com/2026/06/02/rayman-legends-retold-out-october-1-on-ps5/",
+        "https://store.steampowered.com/app/4084710/Rayman_Legends_Retold/",
+        "https://store.epicgames.com/p/rayman-legends-retold?lang=en-US"
+      ],
+      "cta": {
+        "label": "Open Rayman Legends Retold Gameplay and New Features",
+        "href": "/gameplay-and-new-features"
+      }
     },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
+    "beginner-guide": {
+      "id": "beginner-guide",
+      "order": 4,
+      "name": "Rayman Legends Retold Beginner Guide",
+      "layout": {
+        "type": "step-by-step",
+        "desktop": "Vertical guide timeline with step number, action, and practical tip.",
+        "mobile": "Compact numbered steps with one tip per card."
+      },
+      "eyebrow": "Beginner Guide",
+      "title": "Rayman Legends Retold Beginner Guide",
+      "subtitle": "Start with the basics: move cleanly, collect Lums, rescue Teensies, replay stages, and use co-op without losing focus. The game is built for solo players and up to 4-player couch co-op.",
+      "intro": "Rayman Legends Retold rewards simple movement done well. New players should focus on smooth jumps, smart gliding, clear attacks, hidden Teensies, and replaying stages to improve completion before taking on harder challenges like musical stages and the Cave of Trials.",
+      "items": [
         {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
+          "step": 1,
+          "title": "Learn the Core Movement First",
+          "action": "Practice running, jumping, gliding, and punching before chasing every collectible.",
+          "tip": "Rayman levels move fast, so clean movement matters more than rushing on your first run."
         },
         {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
+          "step": 2,
+          "title": "Use Punching to Clear Space",
+          "action": "Punch enemies and obstacles when a path gets crowded.",
+          "tip": "Attacking early keeps your jump path open and helps avoid losing rhythm in busy sections."
         },
         {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
+          "step": 3,
+          "title": "Collect Lums on the Main Route",
+          "action": "Follow the obvious trail of Lums during your first clear, then replay for missed ones.",
+          "tip": "Lums guide the safest path through many sections and are useful for completion-focused runs."
         },
         {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
+          "step": 4,
+          "title": "Search for Hidden Teensies",
+          "action": "Check side paths, suspicious gaps, and alternate routes instead of only running straight to the exit.",
+          "tip": "Teensies are a major completion target, and many are placed slightly off the main route."
         },
         {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
+          "step": 5,
+          "title": "Replay Levels for Better Completion",
+          "action": "After finishing a stage, replay it to collect missed Lums and rescue missed Teensies.",
+          "tip": "Replays are the easiest way to learn enemy timing, hidden routes, and cleaner movement."
         },
         {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "step": 6,
+          "title": "Treat Musical Stages Like Rhythm Challenges",
+          "action": "Move with the beat and avoid random button mashing during music-based levels.",
+          "tip": "The new musical stages reward timing, so listening to the soundtrack helps as much as watching the screen."
+        },
+        {
+          "step": 7,
+          "title": "Use Co-op Roles in 4-Player Sessions",
+          "action": "Let one player lead the route while others focus on Lums, enemies, and hidden Teensies.",
+          "tip": "Co-op can get chaotic, so simple roles help the group complete stages instead of knocking each other around."
+        },
+        {
+          "step": 8,
+          "title": "Save Cave of Trials for Skill Practice",
+          "action": "Try Cave of Trials challenges after you are comfortable with jumping, gliding, and reaction timing.",
+          "tip": "These challenges are built to test movement skill and are better after learning the basic level flow."
+        },
+        {
+          "step": 9,
+          "title": "Play Kung Foot as a Break Mode",
+          "action": "Use Kung Foot when your group wants quick competitive matches instead of story progress.",
+          "tip": "Improved controls, power-ups, and custom rules make it a good party mode between adventure stages."
         }
-      ]
+      ],
+      "source_urls": [
+        "https://www.ubisoft.com/en-gb/games/rayman-legends-retold",
+        "https://news.ubisoft.com/en-us/article/2WxMvhIp4tEdeBz8HELI15/rayman-legends-retold-launching-october-1",
+        "https://blog.playstation.com/2026/06/02/rayman-legends-retold-out-october-1-on-ps5/",
+        "https://store.steampowered.com/app/4084710/Rayman_Legends_Retold/",
+        "https://store.epicgames.com/p/rayman-legends-retold?lang=en-US"
+      ],
+      "cta": {
+        "label": "Open Rayman Legends Retold Beginner Guide",
+        "href": "/beginner-guide"
+      }
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
+    "walkthrough-and-levels": {
+      "id": "walkthrough-and-levels",
+      "order": 5,
+      "name": "Rayman Legends Retold Walkthrough and Levels",
+      "layout": {
+        "type": "step-by-step",
+        "desktop": "Two-column walkthrough timeline with step cards and collectible goals",
+        "mobile": "Single-column vertical steps with compact goal labels"
+      },
+      "eyebrow": "Walkthrough",
+      "title": "Rayman Legends Retold Walkthrough and Level Flow",
+      "subtitle": "Follow the revealed adventure structure: the reimagined Glade of Dreams, returning levels, the sixth realm, musical stages, dragon rides, and Cave of Trials challenges.",
+      "intro": "Rayman Legends Retold rebuilds the 2013 platforming adventure with new 3D visuals, a retold story, fully voiced cinematics, and new gameplay content. Use this module as a clean route map for what players will do first, what to replay for collectibles, and which revealed challenge types matter most.",
+      "items": [
         {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
+          "step": 1,
+          "title": "Enter the Glade of Dreams",
+          "type": "Story Opening",
+          "details": "Begin the adventure as a shadowy villain spreads chaos and corruption across the Glade of Dreams. Rayman and his friends set out to restore peace and rescue Teensies across the realms.",
+          "player_goal": "Learn the basic loop: leap, glide, punch enemies, explore side paths, and watch for collectible routes."
+        },
+        {
+          "step": 2,
+          "title": "Use the Level Hub",
+          "type": "Progression Hub",
+          "details": "The hub connects the opening worlds, replay routes, extra unlocks, and challenge access. Lums return as a currency-style collectible used to unlock extra content such as time trial levels.",
+          "player_goal": "Collect Lums during every run and revisit the hub when new unlocks become available."
+        },
+        {
+          "step": 3,
+          "title": "Clear Returning Iconic Levels",
+          "type": "Main Levels",
+          "details": "A rich selection of iconic levels returns with new visuals, reworked presentation, and more immersive character interactions. These stages keep the fast side-scrolling platforming focus while adding a more cinematic 3D look.",
+          "player_goal": "Complete each stage once, then replay for missed Teensies, Lums, and cleaner movement routes."
+        },
+        {
+          "step": 4,
+          "title": "Explore the Mysterious Sixth Realm",
+          "type": "New Realm",
+          "details": "The remake adds a never-before-seen sixth realm to expand the adventure beyond the original level set. This realm is positioned as one of the key new areas in the retold journey.",
+          "player_goal": "Treat the sixth realm as the major new-world target after learning the returning level rhythm."
+        },
+        {
+          "step": 5,
+          "title": "Play the Four New Musical Stages",
+          "type": "Rhythm Platforming",
+          "details": "Four all-new musical stages join the campaign. These levels are built around movement synced to the beat, turning jumps, attacks, and timing into part of the soundtrack flow.",
+          "player_goal": "Watch the beat, time movement carefully, and replay stages to improve rhythm-based routes."
+        },
+        {
+          "step": 6,
+          "title": "Ride Dragons Through Flight Sequences",
+          "type": "Dragon Ride",
+          "details": "Dragon ride stages add flight-focused action with fire breathing, barriers to destroy, pillars to dodge, and Teensies to protect during fast movement sequences.",
+          "player_goal": "Use dragon fire to open the route, dodge hazards early, and keep Teensies safe through the sequence."
+        },
+        {
+          "step": 7,
+          "title": "Push Through the Cave of Trials",
+          "type": "Challenge Mode",
+          "details": "The Cave of Trials offers ongoing free challenges that test tighter movement, attacks, and route mastery. These stages are designed for players who want harder replay goals beyond the main adventure path.",
+          "player_goal": "Use trials for skill practice, faster routes, and repeatable post-story challenge progression."
+        },
+        {
+          "step": 8,
+          "title": "Replay for Lums, Teensies, and Time Trials",
+          "type": "Replay Goals",
+          "details": "Replay is built around collecting more Lums, rescuing missed Teensies, unlocking extra content, and improving routes in time trial-style challenges.",
+          "player_goal": "Return to older levels after learning new tricks and aim for cleaner runs instead of rushing only the main path."
+        }
+      ],
+      "source_urls": [
+        "https://news.ubisoft.com/en-us/article/2WxMvhIp4tEdeBz8HELI15/rayman-legends-retold-launching-october-1",
+        "https://blog.playstation.com/2026/06/02/rayman-legends-retold-out-october-1-on-ps5/",
+        "https://store.steampowered.com/app/4084710/Rayman_Legends_Retold/",
+        "https://store.epicgames.com/p/rayman-legends-retold",
+        "https://nintendoeverything.com/rayman-legends-retold-preview/"
+      ],
+      "cta": {
+        "label": "Open Rayman Legends Retold Walkthrough and Level Flow",
+        "href": "/walkthrough-and-levels"
+      }
+    },
+    "characters-and-story": {
+      "id": "characters-and-story",
+      "order": 6,
+      "name": "Rayman Legends Retold Characters and Story",
+      "layout": {
+        "type": "card-list",
+        "desktop": "Four-column character cards with role, story function, and player-facing notes",
+        "mobile": "Stacked character cards with short role summaries"
+      },
+      "eyebrow": "Characters",
+      "title": "Rayman Legends Retold Characters and Story",
+      "subtitle": "Meet the confirmed heroes, allies, rescued Teensies, and the new threat behind the retold Glade of Dreams adventure.",
+      "intro": "The remake turns Rayman Legends into a more story-driven adventure with fully voiced cinematics, new character interactions, a new villain, and expanded lore for the Glade of Dreams. The core cast follows Rayman, Globox, Barbara, Grand Minimus, and Murphy as they fight to stop corruption across the realms.",
+      "items": [
+        {
+          "name": "Rayman",
+          "role": "Main Hero",
+          "story_function": "Rayman leads the journey to restore peace to the Glade of Dreams after a shadowy villain spreads corruption through the realms.",
+          "what_players_see": "Fast platforming built around leaping, gliding, punching enemies, rescuing Teensies, and exploring colorful worlds."
+        },
+        {
+          "name": "Globox",
+          "role": "Confirmed Hero Ally",
+          "story_function": "Globox joins Rayman in the retold adventure and is part of the core friend group traveling through the Glade of Dreams.",
+          "what_players_see": "A returning fan-favorite ally featured in the campaign, co-op chaos, and preorder costume content inspired by Rayman 3: Hoodlum Havoc."
+        },
+        {
+          "name": "Barbara",
+          "role": "Confirmed Hero Ally",
+          "story_function": "Barbara returns as one of Rayman's key companions in the expanded story and voiced cinematic presentation.",
+          "what_players_see": "A heroic teammate included in the main cast and Deluxe Edition Retro Pack costume lineup."
+        },
+        {
+          "name": "Grand Minimus",
+          "role": "Teensie Ally",
+          "story_function": "Grand Minimus is part of the confirmed traveling group and connects the adventure to the Teensies that players rescue across levels.",
+          "what_players_see": "A story ally tied closely to Teensie rescue goals and the remake's expanded cast interactions."
+        },
+        {
+          "name": "Murphy",
+          "role": "Companion Character",
+          "story_function": "Murphy joins the confirmed group on the journey through the Glade of Dreams and supports the retold adventure structure.",
+          "what_players_see": "A returning Rayman companion included in the story setup as the remake expands character interactions."
+        },
+        {
+          "name": "Teensies",
+          "role": "Rescue Objective",
+          "story_function": "Teensies are the friends players rescue throughout the Glade of Dreams while clearing worlds and replaying levels.",
+          "what_players_see": "Collectible rescue goals that encourage exploration, replay, and competition in co-op."
+        },
+        {
+          "name": "Shadowy Villain",
+          "role": "New Main Threat",
+          "story_function": "A new villain spreads corruption and chaos through the Glade of Dreams, pushing Rayman and friends into a bigger retold adventure.",
+          "what_players_see": "A new foe tied to the remake's narrative twists, underworld trouble, and expanded world logic."
+        },
+        {
+          "name": "Glade of Dreams",
+          "role": "Main Setting",
+          "story_function": "The Glade of Dreams is reimagined with new 3D visuals, more immersive worlds, fresh surprises, and a never-before-seen sixth realm.",
+          "what_players_see": "Colorful worlds, returning iconic levels, new realms, musical stages, dragon rides, and Cave of Trials challenges."
+        }
+      ],
+      "source_urls": [
+        "https://news.ubisoft.com/en-us/article/2WxMvhIp4tEdeBz8HELI15/rayman-legends-retold-launching-october-1",
+        "https://blog.playstation.com/2026/06/02/rayman-legends-retold-out-october-1-on-ps5/",
+        "https://www.ubisoft.com/en-us/company/about-us/our-brands/rayman",
+        "https://store.epicgames.com/p/rayman-legends-retold",
+        "https://store.steampowered.com/app/4084710/Rayman_Legends_Retold/"
+      ],
+      "cta": {
+        "label": "Open Rayman Legends Retold Characters and Story",
+        "href": "/characters-and-story"
+      }
+    },
+    "co-op-and-kung-foot": {
+      "id": "co-op-and-kung-foot",
+      "order": 7,
+      "name": "Rayman Legends Retold Co Op and Kung Foot",
+      "layout": {
+        "type": "accordion",
+        "desktop": "Two-column accordion with multiplayer feature groups",
+        "mobile": "Single-column accordion optimized for quick platform checks"
+      },
+      "eyebrow": "Multiplayer",
+      "title": "Rayman Legends Retold Co-Op and Kung Foot",
+      "subtitle": "Play the full adventure in couch co-op, compete for Lums and Teensies, then switch into the upgraded Kung Foot party mode.",
+      "intro": "Rayman Legends Retold keeps the series' shared-screen chaos at the center of multiplayer. Players can team up through the adventure, race each other for collectibles, knock friends off route, and play the returning Kung Foot mode with improved controls, power-ups, and customizable rules.",
+      "items": [
+        {
+          "title": "Adventure Couch Co-Op",
+          "summary": "The full adventure supports solo play or up to four-player couch co-op.",
+          "content": [
+            "Play through the campaign together on the same screen.",
+            "Jump, glide, punch, and survive the same level routes as a group.",
+            "Co-op is designed for fast platforming with shared chaos rather than separate isolated paths."
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
+          "title": "Co-Op Goals",
+          "summary": "Players can help each other or compete while clearing stages.",
+          "content": [
+            "Rescue friends and Teensies across levels.",
+            "Race other players for Lums.",
+            "Knock friends off their path to grab collectibles first.",
+            "Replay levels to clean up missed Teensies and improve group routes."
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
+          "title": "Kung Foot Returns",
+          "summary": "Kung Foot is back as a competitive party mode.",
+          "content": [
+            "Improved controls make the mode easier to read and faster to play.",
+            "Power-ups add more match variety.",
+            "Customizable rules let players tune the match flow for casual or competitive sessions."
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
+          "title": "PC Multiplayer Features",
+          "summary": "Steam and Epic list local and multiplayer support for the PC release.",
+          "content": [
+            "Steam lists Single-player, Shared/Split Screen Co-op, Shared/Split Screen PvP, Shared/Split Screen, Remote Play Together, and Cross-Platform Multiplayer.",
+            "Epic Games Store lists Single Player, Local Multiplayer, Multiplayer, and Cross Platform features.",
+            "Steam requires a Ubisoft account and supports linking to a Steam account."
           ]
         },
         {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
+          "title": "Xbox Multiplayer Notes",
+          "summary": "The Xbox listing confirms local multiplayer for Xbox Series X|S.",
+          "content": [
+            "Xbox lists local multiplayer for 2-4 players.",
+            "The Xbox listing states that internet connection, a Ubisoft account, and a Microsoft account are required to access online features.",
+            "Xbox editions include the base game together with Rayman Origins: Enhanced Edition."
           ]
         }
-      ]
+      ],
+      "source_urls": [
+        "https://news.ubisoft.com/en-us/article/2WxMvhIp4tEdeBz8HELI15/rayman-legends-retold-launching-october-1",
+        "https://blog.playstation.com/2026/06/02/rayman-legends-retold-out-october-1-on-ps5/",
+        "https://www.xbox.com/en-US/games/store/rayman-legends-retold/9NMP2PLJN7N9/0017",
+        "https://store.steampowered.com/app/4084710/Rayman_Legends_Retold/",
+        "https://store.epicgames.com/p/rayman-legends-retold"
+      ],
+      "cta": {
+        "label": "Open Rayman Legends Retold Co-Op and Kung Foot",
+        "href": "/co-op-and-kung-foot"
+      }
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+    "pc-requirements-and-languages": {
+      "id": "pc-requirements-and-languages",
+      "order": 8,
+      "name": "Rayman Legends Retold PC Requirements and Languages",
+      "layout": {
+        "type": "table",
+        "desktop": "Full-width comparison table with requirement, account, DRM, and language rows",
+        "mobile": "Stacked spec rows with label and value blocks"
+      },
+      "eyebrow": "PC Specs",
+      "title": "Rayman Legends Retold PC Requirements and Languages",
+      "subtitle": "Check PC specs, supported languages, account requirements, and store-specific notes before playing on Steam or Epic Games Store.",
+      "intro": "Rayman Legends Retold launches on PC through Ubisoft Store, Steam, and Epic Games Store. The PC listings cover Windows requirements, supported languages, account requirements, and Steam DRM details for players who want to prepare their setup early.",
+      "items": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "label": "Minimum PC Specs",
+          "store": "Steam",
+          "value": "Windows 10 64-bit, Intel Core i3-7100 3.9 GHz or AMD Ryzen 3 1200 3.1 GHz, 8 GB RAM, NVIDIA GeForce GTX 1650 4GB or AMD Radeon RX 5500 XT 4GB, DirectX 9.0, 10 GB available storage, 8 GB dual-channel RAM setup."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "label": "Minimum PC Specs",
+          "store": "Epic Games Store",
+          "value": "Windows 10 64-bit or Windows 11, Intel i3-8100 or Ryzen 3 3100, 16 GB memory, Nvidia GTX 1650 4GB or AMD RX 5500 XT 4GB or Intel Arc A580 8GB, DirectX 12."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "label": "Recommended PC Specs",
+          "store": "Epic Games Store",
+          "value": "Windows 10 64-bit or Windows 11, Intel i5-8400 6c6t or Ryzen 5 3600X, 16 GB memory, Nvidia RTX 2060 6GB or AMD RX 5600 XT 6GB or Intel Arc A750 8GB, DirectX 12."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "label": "Steam Account and DRM",
+          "store": "Steam",
+          "value": "Ubisoft account required with Steam account linking support. Steam lists Denuvo Anti-Tamper and a 5-per-day machine activation limit."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+          "label": "Epic Login Requirement",
+          "store": "Epic Games Store",
+          "value": "Epic Games login account required."
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
+          "label": "Full Audio Languages",
+          "store": "Steam and Epic Games Store",
+          "value": "English, French, Italian, German, Spanish, Portuguese - Brazil, Japanese, Simplified Chinese."
         },
         {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "label": "Interface and Subtitle Languages",
+          "store": "Steam and Epic Games Store",
+          "value": "English, French, Italian, German, Spanish, Dutch, Japanese, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese."
         },
         {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "label": "PC Store Availability",
+          "store": "Ubisoft, Steam, Epic Games Store",
+          "value": "PC release is available through Ubisoft Store, Steam, and Epic Games Store, with Rayman Origins: Enhanced Edition included in the base package."
         }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
-        },
-        {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
-        },
-        {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
-        },
-        {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
-        }
-      ]
+      ],
+      "source_urls": [
+        "https://store.steampowered.com/app/4084710/Rayman_Legends_Retold/",
+        "https://store.epicgames.com/p/rayman-legends-retold",
+        "https://news.ubisoft.com/en-us/article/2WxMvhIp4tEdeBz8HELI15/rayman-legends-retold-launching-october-1"
+      ],
+      "cta": {
+        "label": "Open Rayman Legends Retold PC Requirements and Languages",
+        "href": "/pc-requirements-and-languages"
+      }
     }
   },
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Key release, platform, and co-op answers for Rayman Legends Retold.",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "When does Rayman Legends Retold release?",
+        "answer": "Rayman Legends Retold is scheduled to launch on October 1, 2026."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Which platforms are confirmed?",
+        "answer": "Ubisoft has confirmed PS5, Xbox Series X|S, Nintendo Switch 2, PC storefronts such as Steam and Epic Games Store, plus GeForce NOW and Blacknut."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Does Rayman Legends Retold support co-op?",
+        "answer": "Yes. The full adventure supports local couch co-op for up to four players, and Kung Foot returns as a separate party mode."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "What editions are available?",
+        "answer": "The announced lineup includes Standard Edition, Deluxe Edition, Launch Edition, and a Deluxe Upgrade option, with the Hoodlum Havoc Pack tied to pre-orders."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Is this a remake or a remaster?",
+        "answer": "Ubisoft is presenting Rayman Legends Retold as a broader reimagining with 3D visuals, new story content, a sixth realm, and new stage types rather than a simple remaster."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "What does the PC version require?",
+        "answer": "Current PC store listings point to Windows 10 or 11, a modern mid-range CPU and GPU, 16 GB of memory, and a Ubisoft account requirement on supported PC storefronts."
       }
     ]
   },
@@ -801,125 +767,145 @@
     "disclaimer": "Fan-made reference site covering official Rayman Legends Retold information and community resources."
   },
   "pages": {
-    "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "release": {
+      "title": "Rayman Legends Retold Release",
+      "description": "Latest Rayman Legends Retold release date coverage, launch timing, official news, and reveal updates in one place.",
+      "metaTitle": "Rayman Legends Retold Release - Launch Date, News & Reveal Updates",
+      "metaDescription": "Track Rayman Legends Retold release date details, launch timing, official news, and State of Play updates with fast-reference release guides.",
+      "categoryLabel": "RELEASE INFO",
+      "whatIs": "What is Release?",
+      "whatIsDescription": "This category collects the official launch timing for Rayman Legends Retold, including release date confirmations, reveal coverage, and the most important launch-window updates.",
+      "why": "Why read release coverage?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Track launch timing",
+        "step1Description": "See the current release date, launch window, and any timing changes without checking every store page yourself.",
+        "step2Title": "Catch official news",
+        "step2Description": "Follow announcement summaries, State of Play coverage, and Ubisoft updates that affect launch expectations.",
+        "step3Title": "Plan your buy-in",
+        "step3Description": "Use the release timeline to line up pre-orders, platform choice, and co-op plans before launch day."
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Release Articles"
     },
-    "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "platforms": {
+      "title": "Rayman Legends Retold Platforms",
+      "description": "Compare Rayman Legends Retold platform coverage across PS5, Xbox Series X|S, Nintendo Switch 2, Steam, Epic, Ubisoft Connect, and cloud services.",
+      "metaTitle": "Rayman Legends Retold Platforms - PS5, Xbox, Switch 2 & PC",
+      "metaDescription": "Check every confirmed Rayman Legends Retold platform, store listing, PC option, and cloud release in one platform hub.",
+      "categoryLabel": "PLATFORMS",
+      "whatIs": "What are Platforms?",
+      "whatIsDescription": "This category tracks where Rayman Legends Retold is playable, which stores currently list it, and what each platform page confirms about editions, features, and access.",
+      "why": "Why check platform guides?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Confirm your system",
+        "step1Description": "See whether PS5, Xbox Series X|S, Switch 2, Steam, Epic, or Ubisoft Connect is the best fit for your setup.",
+        "step2Title": "Compare store details",
+        "step2Description": "Different storefronts surface different notes on pricing, co-op, account linking, and availability.",
+        "step3Title": "Avoid platform confusion",
+        "step3Description": "Use one clean reference instead of cross-checking several retailer pages with overlapping information."
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Platform Articles"
     },
-    "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "preorder": {
+      "title": "Rayman Legends Retold Preorder",
+      "description": "Find preorder status, pricing notes, physical copy details, and launch-buying guidance for Rayman Legends Retold.",
+      "metaTitle": "Rayman Legends Retold Preorder - Price, Physical Copy & Buy Options",
+      "metaDescription": "Track Rayman Legends Retold preorder status, pricing, physical edition availability, and the best ways to buy before launch.",
+      "categoryLabel": "PREORDER",
+      "whatIs": "What is Preorder?",
+      "whatIsDescription": "This category focuses on buying Rayman Legends Retold before launch, covering preorder availability, physical retail notes, and price-focused shopping questions.",
+      "why": "Why follow preorder coverage?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Check preorder access",
+        "step1Description": "Know which stores have pre-orders open, which versions are digital-only, and where physical copies are expected.",
+        "step2Title": "Compare prices early",
+        "step2Description": "Use pricing coverage to decide whether to buy immediately, wait for a preferred store, or aim for a retail launch copy.",
+        "step3Title": "Understand bonus timing",
+        "step3Description": "Preorder articles help separate permanent edition content from launch-only or preorder-only offers."
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Preorder Articles"
     },
-    "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "editions": {
+      "title": "Rayman Legends Retold Editions",
+      "description": "Break down Standard, Deluxe, upgrade, and bonus content so you can choose the right Rayman Legends Retold edition.",
+      "metaTitle": "Rayman Legends Retold Editions - Deluxe, Bonuses & Upgrade Details",
+      "metaDescription": "Compare Rayman Legends Retold editions, Deluxe content, preorder bonuses, DLC expectations, and upgrade paths.",
+      "categoryLabel": "EDITIONS",
+      "whatIs": "What are Editions?",
+      "whatIsDescription": "This category explains how Rayman Legends Retold editions differ, what each bundle includes, and which bonuses are tied to Deluxe, launch, or preorder offers.",
+      "why": "Why compare editions?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Pick the right package",
+        "step1Description": "See which edition includes the extras you care about without overpaying for items you will ignore.",
+        "step2Title": "Understand bonus content",
+        "step2Description": "Separate base-game content, costume packs, art extras, and any upgrade-only add-ons clearly.",
+        "step3Title": "Plan future upgrades",
+        "step3Description": "Edition guides make it easier to decide whether to buy Standard now and upgrade later or buy Deluxe immediately."
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Edition Articles"
     },
-    "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "comparison": {
+      "title": "Rayman Legends Retold Comparison",
+      "description": "Compare Rayman Legends Retold with the 2013 original, remaster expectations, 2.5D roots, and the remake-style changes shown so far.",
+      "metaTitle": "Rayman Legends Retold Comparison - Original vs Remake Explained",
+      "metaDescription": "See how Rayman Legends Retold compares with the original Rayman Legends through remake, remaster, graphics, and gameplay comparisons.",
+      "categoryLabel": "COMPARISON",
+      "whatIs": "What is Comparison?",
+      "whatIsDescription": "This category focuses on how Rayman Legends Retold differs from the original game, especially its visual overhaul, new content, and the remake-versus-remaster question.",
+      "why": "Why read comparisons?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Understand what changed",
+        "step1Description": "Comparison pieces show whether Retold is a simple visual update or a deeper reimagining of the original release.",
+        "step2Title": "Set expectations",
+        "step2Description": "Returning fans can quickly judge the scope of new story beats, 3D visuals, and added stage types.",
+        "step3Title": "Spot the major upgrades",
+        "step3Description": "Graphics, presentation, and structure comparisons highlight the biggest differences worth tracking before launch."
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Comparison Articles"
     },
-    "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "guide": {
+      "title": "Rayman Legends Retold Guide",
+      "description": "Use Rayman Legends Retold guide coverage for beginner tips, developer context, and broad explainers before launch.",
+      "metaTitle": "Rayman Legends Retold Guide - Beginner Tips & Key Info",
+      "metaDescription": "Read Rayman Legends Retold beginner guides, tips and tricks, explainers, and early knowledge hubs in one guide category.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "What is Guide?",
+      "whatIsDescription": "This category groups broad Rayman Legends Retold explainers, beginner tips, and high-level guides that help new players understand the game before diving into specific levels or platform details.",
+      "why": "Why use guide articles?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Learn the basics fast",
+        "step1Description": "Start with movement, co-op, collectibles, and overall game structure before chasing niche details.",
+        "step2Title": "Get launch-ready context",
+        "step2Description": "Guide coverage brings together the most important confirmed details in a format that is faster to scan than store pages.",
+        "step3Title": "Build a clean starting plan",
+        "step3Description": "Beginner and overview guides help you decide what to play first, what to replay, and which features matter most."
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Guide Articles"
+    },
+    "walkthrough": {
+      "title": "Rayman Legends Retold Walkthrough",
+      "description": "Follow Rayman Legends Retold walkthrough coverage for level flow, route planning, and specific stage guidance like Castle Rock.",
+      "metaTitle": "Rayman Legends Retold Walkthrough - Level Flow & Stage Help",
+      "metaDescription": "Browse Rayman Legends Retold walkthrough guides covering campaign flow, musical stages, level routes, and featured stage help.",
+      "categoryLabel": "WALKTHROUGH",
+      "whatIs": "What is Walkthrough?",
+      "whatIsDescription": "This category focuses on progression flow and stage-by-stage guidance, from broad campaign routes to specific level help for standout sections like Castle Rock.",
+      "why": "Why read walkthroughs?",
+      "whySteps": {
+        "step1Title": "Follow the level flow",
+        "step1Description": "Use walkthrough coverage to understand the order of major challenges, replay goals, and where new content fits in.",
+        "step2Title": "Prepare for difficult stages",
+        "step2Description": "Stage-focused help is useful for musical levels, challenge content, and collectibles that are easy to miss on a first run.",
+        "step3Title": "Improve replay routes",
+        "step3Description": "Walkthroughs make it easier to revisit levels for better Lum routes, hidden Teensies, and cleaner completion."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Walkthrough Articles"
     }
   }
 }

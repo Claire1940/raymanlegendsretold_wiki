@@ -19,7 +19,9 @@ export async function getNavPreviewData(locale: Language): Promise<NavPreviewDat
 				if (fm.date) return new Date(fm.date).getTime()
 				return 0
 			}
-			return getTime(a) - getTime(b)
+			const timeDiff = getTime(a) - getTime(b)
+			if (timeDiff !== 0) return timeDiff
+			return a.frontmatter.title.localeCompare(b.frontmatter.title)
 		})
 		data[type] = sorted.map((i) => ({
 			slug: i.slug,

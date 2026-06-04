@@ -1,3 +1,12 @@
+import {
+  BookOpen,
+  Calendar,
+  Columns3,
+  Compass,
+  Layers3,
+  Monitor,
+  ShoppingCart,
+} from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
 export interface NavigationItem {
@@ -7,7 +16,15 @@ export interface NavigationItem {
 	isContentType: boolean // 是否对应 content/ 目录
 }
 
-export const navigation: NavigationItem[] = []
+export const navigation: NavigationItem[] = [
+  { key: 'release', path: '/release', icon: Calendar, isContentType: true },
+  { key: 'platforms', path: '/platforms', icon: Monitor, isContentType: true },
+  { key: 'preorder', path: '/preorder', icon: ShoppingCart, isContentType: true },
+  { key: 'editions', path: '/editions', icon: Layers3, isContentType: true },
+  { key: 'comparison', path: '/comparison', icon: Columns3, isContentType: true },
+  { key: 'guide', path: '/guide', icon: BookOpen, isContentType: true },
+  { key: 'walkthrough', path: '/walkthrough', icon: Compass, isContentType: true },
+]
 export const NAVIGATION_CONFIG: NavigationItem[] = navigation
 
 // 从配置派生内容类型列表（用于路由和内容加载）
