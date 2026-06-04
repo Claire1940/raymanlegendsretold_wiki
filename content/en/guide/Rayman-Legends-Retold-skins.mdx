@@ -1,0 +1,143 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Rayman Legends Retold Skins: Complete Guide to Character Customization",
+  description: "Discover all available Rayman Legends Retold skins, how to unlock them, and the best ways to customize your hero in the 2026 remake.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3b82f6/fff?text=Rayman+Legends+Retold+Skins",
+  date: "2026-06-04",
+  author: "Rayman Legends Retold Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Rayman Legends Retold skins** allow players to customize their characters using the new 3D-modeled assets.
+- **Deluxe Edition** content includes exclusive outfits like the **Classic Rayman** and **Betilla the Fairy** skins.
+- You can manage your appearance via the **in-game menu** or the updated world map hub.
+- Skins are purely cosmetic and do not affect character **speed or movement mechanics**.
+</Callout>
+
+<Section icon={Sparkles} title="Unlocking Your Hero's Look">
+
+Customization in *Rayman Legends Retold* brings a fresh perspective to the Glade of Dreams. While the core gameplay remains faithful to the 2013 classic, the visual overhaul allows for more expressive character models. Whether you are playing as Rayman or his friends, the new skins provide a modern flair to the platforming action.
+
+**Video Highlights:**
+- Detailed look at the new 3D art style and character animations.
+- Insights into the immersive lighting effects applied to all character models.
+- Preview of the expanded customization options available at launch.
+
+<YouTubeEmbed videoId="GQHGO9dSmDQ" title="Rayman Legends Retold is better than you'd think!" />
+
+<Callout type="tip" title="Pro Tip">
+Always check the **in-game Art Gallery** after unlocking a new skin. It provides a 360-degree view of your character's new aesthetic, which is particularly useful for seeing the high-fidelity detail in the Snowdrop engine.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Available Character Outfits">
+
+The game features several iconic looks that pay homage to the franchise's history. Below is a breakdown of the primary skins available through the Deluxe Edition and standard progression.
+
+| Skin Name | Character | Source | Style |
+| :--- | :--- | :--- | :--- |
+| **Classic Rayman** | Rayman | Deluxe Edition | Retro/Nostalgic |
+| **Betilla The Fairy** | Barbara | Deluxe Edition | Whimsical |
+| **Electoon Teensie** | Grand Minimus | Deluxe Edition | Quirky |
+| **Retro Hunter** | Globox | Deluxe Edition | Classic |
+
+<CardGrid cols={3}>
+  <Card title="Standard Outfits">
+    - Unlocked via normal gameplay.
+    - No additional cost.
+    - Represents the base character designs.
+  </Card>
+  <Card title="Deluxe Pack">
+    - Included in the Deluxe Edition.
+    - Includes 4 exclusive character skins.
+    - Access to the in-game Art Gallery.
+  </Card>
+  <Card title="Future Content">
+    - Seasonal event skins expected.
+    - Potential community rewards.
+    - Stay tuned for official updates.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Note on Availability">
+Content might vary depending on your region and the retailer where you purchase your copy of *Rayman Legends Retold*. Always verify the edition contents on the official [Ubisoft Store](https://www.ubisoft.com/en-us/help/purchases-and-rewards/article/release-information-for-rayman-legends-retold/000116940?origin=middle).
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="How to Equip Skins">
+
+Changing your appearance is a seamless process. Follow these steps to apply your newly unlocked looks before jumping into a level.
+
+<Steps>
+  <Step num="1" title="Access the Menu">
+    Pause the game while in the world hub or at the start of a level.
+  </Step>
+  <Step num="2" title="Navigate to Customization">
+    Select the "Characters" or "Appearance" tab from the main pause menu.
+  </Step>
+  <Step num="3" title="Select Character">
+    Choose the character you wish to customize from the available roster.
+  </Step>
+  <Step num="4" title="Apply Skin">
+    Highlight your preferred skin and confirm your selection to update your character's look instantly.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Customization Benefit">
+Using different skins can make local four-player co-op much easier to follow, as each player can distinguish their character from the others during chaotic platforming segments.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression Goals">
+
+To get the most out of your character customization, focus on these milestones throughout your playthrough.
+
+<Checklist
+  id="skin-goals"
+  title="Collection Milestones:"
+  items={[
+    "Purchase or upgrade to the Deluxe Edition",
+    "Complete the first world to unlock basic character swaps",
+    "Save enough Teensies to unlock bonus character variants",
+    "Explore the new sixth realm for secret cosmetic rewards"
+  ]}
+/>
+
+| Milestone | Requirement | Reward |
+| :--- | :--- | :--- |
+| **Early Game** | Clear World 1 | Basic Skin Swaps |
+| **Mid Game** | Save 100 Teensies | Special Character Colors |
+| **Late Game** | Complete Cave of Trials | Exclusive Legacy Skin |
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Do Rayman Legends Retold skins change my abilities?",
+    answer: "No, all skins are purely cosmetic. They do not affect your character's movement, speed, or combat capabilities, ensuring fair play in time-attack levels."
+  },
+  {
+    question: "Can I unlock Deluxe Edition skins without buying the edition?",
+    answer: "At this time, the Retro Pack skins are exclusive to the Deluxe Edition. Check the official store for any future standalone cosmetic packs."
+  },
+  {
+    question: "Are the skins visible in multiplayer modes like Kung Foot?",
+    answer: "Yes! Your selected skins will be visible to all players in both local co-op and the competitive Kung Foot soccer minigame."
+  }
+]} />
+
+</Section>
