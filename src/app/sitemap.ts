@@ -4,28 +4,24 @@ import { routing, type Locale } from '@/i18n/routing'
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://raymanlegendsretold.wiki'
 
-// 内容类型优先级配置
 const contentTypePriority: Record<string, number> = {
-	'guides': 0.9,
-	'crafting': 0.9,
-	'biomes': 0.8,
-	'creatures': 0.8,
-	'items': 0.8,
-	'achievements': 0.7,
-	'lore': 0.7,
-	'support': 0.6,
+	release: 0.9,
+	platforms: 0.85,
+	preorder: 0.84,
+	editions: 0.83,
+	comparison: 0.8,
+	guide: 0.82,
+	walkthrough: 0.81,
 }
 
-// 内容更新频率配置
 const contentTypeChangeFrequency: Record<string, 'daily' | 'weekly' | 'monthly'> = {
-	'guides': 'weekly',
-	'crafting': 'weekly',
-	'biomes': 'weekly',
-	'creatures': 'weekly',
-	'items': 'weekly',
-	'achievements': 'monthly',
-	'lore': 'monthly',
-	'support': 'monthly',
+	release: 'daily',
+	platforms: 'weekly',
+	preorder: 'weekly',
+	editions: 'weekly',
+	comparison: 'monthly',
+	guide: 'weekly',
+	walkthrough: 'weekly',
 }
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {

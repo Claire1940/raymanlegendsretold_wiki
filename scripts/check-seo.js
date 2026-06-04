@@ -71,7 +71,8 @@ function checkRobotsAndSitemap() {
 
   // 检查 sitemap.xml
   const sitemapPath = path.join(projectRoot, 'public', 'sitemap.xml')
-  if (fs.existsSync(sitemapPath)) {
+  const dynamicSitemapPath = path.join(projectRoot, 'src', 'app', 'sitemap.ts')
+  if (fs.existsSync(sitemapPath) || fs.existsSync(dynamicSitemapPath)) {
     addResult('passed', 'Sitemap', '✓ sitemap.xml 存在')
   } else {
     addResult('warnings', 'Sitemap', '⚠ sitemap.xml 不存在（Next.js 可能动态生成）')
@@ -166,13 +167,18 @@ function checkImages() {
   const publicDir = path.join(projectRoot, 'public')
 
   // 检查 OG Image
-  const ogImagePath = path.join(publicDir, 'og-image.jpg')
-  if (fs.existsSync(ogImagePath)) {
-    const stats = fs.statSync(ogImagePath)
+  const ogImageCandidates = [
+    path.join(publicDir, 'og-image.jpg'),
+    path.join(publicDir, 'images', 'hero.webp'),
+  ]
+  const existingOgImage = ogImageCandidates.find(file => fs.existsSync(file))
+
+  if (existingOgImage) {
+    const stats = fs.statSync(existingOgImage)
     const sizeKB = (stats.size / 1024).toFixed(2)
-    addResult('passed', 'Images', `✓ og-image.jpg 存在 (${sizeKB} KB)`)
+    addResult('passed', 'Images', `✓ OG 图片资源存在 (${path.basename(existingOgImage)}, ${sizeKB} KB)`)
   } else {
-    addResult('errors', 'Images', '✗ og-image.jpg 不存在')
+    addResult('errors', 'Images', '✗ 未找到 OG 图片资源')
   }
 
   // 检查 Favicon
@@ -251,15 +257,17 @@ function checkPageStructure() {
   }
 
   // 检查 FAQ
-  if (translations.faq?.items && translations.faq.items.length > 0) {
-    addResult('passed', 'Content', `✓ FAQ 包含 ${translations.faq.items.length} 个问题`)
+  const faqItems = translations.faq?.questions || translations.faq?.items
+  if (Array.isArray(faqItems) && faqItems.length > 0) {
+    addResult('passed', 'Content', `✓ FAQ 包含 ${faqItems.length} 个问题`)
   } else {
     addResult('warnings', 'Content', '⚠ 缺少 FAQ 内容')
   }
 
   // 检查工具/资源
-  if (translations.tools?.items && translations.tools.items.length > 0) {
-    addResult('passed', 'Content', `✓ 工具/资源包含 ${translations.tools.items.length} 个项目`)
+  const toolItems = translations.tools?.cards || translations.tools?.items
+  if (Array.isArray(toolItems) && toolItems.length > 0) {
+    addResult('passed', 'Content', `✓ 工具/资源包含 ${toolItems.length} 个项目`)
   } else {
     addResult('warnings', 'Content', '⚠ 缺少工具/资源内容')
   }

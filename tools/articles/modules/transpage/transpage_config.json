@@ -1,0 +1,53 @@
+{
+  "api_key": "sk-vOqGcdrN8fL7NZCO0iVvPvcJ0RzsS1zqaFMjLPTmxSP7gaaE",
+  "api_base_url": "https://api.apifast.tech/v1",
+  "model": "gemini-2.5-flash",
+  "group": "default",
+  "temperature": 0.1,
+  "max_tokens": 32768,
+  "timeout": 120,
+  "retry_attempts": 3,
+  "retry_delay": 5,
+  "languages": ["es", "fr", "pt-BR"],
+  "default_language": "en",
+  "output_dir": "src/locales/",
+  "use_value_extraction": true,
+  "excluded_value_paths": [
+    "tools\\.cards\\[\\d+\\]\\.icon",
+    "modules\\.[^.]+\\.layout\\.type",
+    "modules\\.[^.]+\\.cta\\.href",
+    "modules\\.[^.]+\\.source_urls\\[\\d+\\]",
+    "modules\\.[^.]+\\.id"
+  ],
+  "protected_terms": {
+    "game_names": ["Rayman Legends Retold"],
+    "character_names": ["Rayman", "Globox", "Barbara", "Murphy", "Teensies", "Grand Minimus"],
+    "technical_terms": [
+      "Hoodlum Havoc",
+      "Retro Pack",
+      "Kung Foot",
+      "Cave of Trials",
+      "Glade of Dreams",
+      "Snowdrop",
+      "Ubisoft Connect",
+      "PlayStation 5",
+      "Xbox Series X|S",
+      "Nintendo Switch 2",
+      "GeForce NOW",
+      "Blacknut",
+      "Steam",
+      "Epic Games Store"
+    ]
+  },
+  "game_names": {
+    "en": "Rayman Legends Retold",
+    "es": "Rayman Legends Retold",
+    "fr": "Rayman Legends Retold",
+    "pt-BR": "Rayman Legends Retold"
+  },
+  "lang_names": {
+    "es": "Spanish",
+    "fr": "French",
+    "pt-BR": "Portuguese (Brazil)"
+  }
+}

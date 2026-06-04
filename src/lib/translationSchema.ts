@@ -7,120 +7,16 @@
 
 import { z } from 'zod'
 
-// ============================================
-// 基础 Schema
-// ============================================
-
-export const IconCardSchema = z.object({
-  icon: z.string().min(1, 'Icon name is required'),
-  title: z.string().min(1, 'Title is required'),
-  description: z.string().min(1, 'Description is required')
-})
-
-export const StatSchema = z.object({
-  value: z.string(),
-  label: z.string()
-})
-
-export const StepSchema = z.object({
-  title: z.string(),
-  description: z.string()
-})
-
-export const SectionSchema = z.object({
-  title: z.string(),
-  items: z.array(z.string())
-})
-
-export const RoleSchema = z.object({
-  name: z.string(),
-  description: z.string(),
-  tips: z.array(z.string())
-})
-
-export const TaskTypeSchema = z.object({
-  type: z.string(),
-  examples: z.array(z.string())
-})
-
-export const KeybindSchema = z.object({
-  action: z.string(),
-  key: z.string()
-})
-
-export const EquipmentSchema = z.object({
-  name: z.string(),
-  description: z.string()
-})
-
-export const CategorySchema = z.object({
-  name: z.string(),
-  examples: z.array(z.string())
-})
-
-// ============================================
-// 模块 Schema
-// ============================================
-
-export const DemoDownloadModuleSchema = z.object({
-  title: z.string(),
-  subtitle: z.string(),
-  sections: z.array(SectionSchema).optional()
-})
-
-export const BeginnerGuideModuleSchema = z.object({
-  title: z.string(),
-  subtitle: z.string(),
-  steps: z.array(StepSchema).optional(),
-  pitfalls: z.array(z.object({
-    title: z.string(),
-    description: z.string()
-  })).optional()
-})
-
-export const CoopGuideModuleSchema = z.object({
-  title: z.string(),
-  subtitle: z.string(),
-  roles: z.array(RoleSchema).optional(),
-  threats: z.array(z.string()).optional()
-})
-
-export const TasksObjectivesModuleSchema = z.object({
-  title: z.string(),
-  subtitle: z.string(),
-  taskTypes: z.array(TaskTypeSchema).optional(),
-  efficiency: z.array(z.string()).optional()
-})
-
-export const ControlsKeybindsModuleSchema = z.object({
-  title: z.string(),
-  subtitle: z.string(),
-  keybinds: z.array(KeybindSchema).optional()
-})
-
-export const ContentSettingsModuleSchema = z.object({
-  title: z.string(),
-  subtitle: z.string(),
-  descriptors: z.array(z.string()).optional(),
-  details: z.array(SectionSchema).optional()
-})
-
-export const CraftingEquipmentModuleSchema = z.object({
-  title: z.string(),
-  subtitle: z.string(),
-  equipment: z.array(EquipmentSchema).optional(),
-  sections: z.array(SectionSchema).optional()
-})
-
-export const LootItemsModuleSchema = z.object({
-  title: z.string(),
-  subtitle: z.string(),
-  categories: z.array(CategorySchema).optional()
-})
-
-// ============================================
-// 完整的翻译 Schema
-// ============================================
+const JsonValueSchema: z.ZodType<unknown> = z.lazy(() =>
+  z.union([
+    z.string(),
+    z.number(),
+    z.boolean(),
+    z.null(),
+    z.array(JsonValueSchema),
+    z.record(z.string(), JsonValueSchema),
+  ]),
+)
 
 export const TranslationsSchema = z.object({
   seo: z.object({
@@ -131,8 +27,8 @@ export const TranslationsSchema = z.object({
       ogTitle: z.string(),
       ogDescription: z.string(),
       twitterTitle: z.string(),
-      twitterDescription: z.string()
-    })
+      twitterDescription: z.string(),
+    }),
   }),
   nav: z.record(z.string(), z.string()),
   common: z.object({
@@ -147,36 +43,33 @@ export const TranslationsSchema = z.object({
     notFoundDescription: z.string(),
     backToHome: z.string(),
     relatedArticles: z.string(),
-    readMore: z.string()
+    readMore: z.string(),
+    articlesComingSoon: z.string(),
   }),
   hero: z.object({
     badge: z.string(),
     title: z.string(),
     description: z.string(),
     getFreeCodesCTA: z.string(),
-    playOnRobloxCTA: z.string(),
-    stats: z.record(z.string(), StatSchema)
+    playOnSteamCTA: z.string(),
+    stats: z.record(
+      z.string(),
+      z.object({
+        value: z.string(),
+        label: z.string(),
+      }),
+    ),
   }),
   gameFeature: z.object({
     title: z.string(),
-    description: z.string()
+    description: z.string(),
   }),
-  tools: z.object({
-    title: z.string(),
-    titleHighlight: z.string(),
-    subtitle: z.string(),
-    cards: z.array(IconCardSchema).optional()
-  }),
-  modules: z.object({
-    demoDownload: DemoDownloadModuleSchema.optional(),
-    beginnerGuide: BeginnerGuideModuleSchema.optional(),
-    coopGuide: CoopGuideModuleSchema.optional(),
-    tasksObjectives: TasksObjectivesModuleSchema.optional(),
-    controlsKeybinds: ControlsKeybindsModuleSchema.optional(),
-    contentSettings: ContentSettingsModuleSchema.optional(),
-    craftingEquipment: CraftingEquipmentModuleSchema.optional(),
-    lootItems: LootItemsModuleSchema.optional()
-  })
+  tools: JsonValueSchema,
+  modules: JsonValueSchema,
+  pages: JsonValueSchema,
+  faq: JsonValueSchema,
+  cta: JsonValueSchema,
+  footer: JsonValueSchema,
 })
 
 // ============================================
@@ -250,12 +143,8 @@ export function validateModule<T>(
 // ============================================
 
 export type Translations = z.infer<typeof TranslationsSchema>
-export type IconCard = z.infer<typeof IconCardSchema>
-export type Stat = z.infer<typeof StatSchema>
-export type Step = z.infer<typeof StepSchema>
-export type Section = z.infer<typeof SectionSchema>
-export type Role = z.infer<typeof RoleSchema>
-export type TaskType = z.infer<typeof TaskTypeSchema>
-export type Keybind = z.infer<typeof KeybindSchema>
-export type Equipment = z.infer<typeof EquipmentSchema>
-export type Category = z.infer<typeof CategorySchema>
+export type IconCard = {
+  icon: string
+  title: string
+  description: string
+}

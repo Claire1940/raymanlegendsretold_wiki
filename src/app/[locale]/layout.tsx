@@ -98,6 +98,34 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
+function getStructuredData(siteUrl: string, locale: string) {
+  const localizedUrl = locale === 'en' ? siteUrl : `${siteUrl}/${locale}`
+
+  return {
+    website: {
+      '@context': 'https://schema.org',
+      '@type': 'WebSite',
+      '@id': `${siteUrl}#website`,
+      url: siteUrl,
+      name: 'Rayman Legends Retold Wiki',
+      inLanguage: locale,
+      potentialAction: {
+        '@type': 'SearchAction',
+        target: `${localizedUrl}/guide/{search_term_string}`,
+        'query-input': 'required name=search_term_string',
+      },
+    },
+    organization: {
+      '@context': 'https://schema.org',
+      '@type': 'Organization',
+      '@id': `${siteUrl}#organization`,
+      name: 'Rayman Legends Retold Wiki',
+      url: siteUrl,
+      logo: `${siteUrl}/android-chrome-512x512.png`,
+    },
+  }
+}
+
 export default async function LocaleLayout({ children, params }: Props) {
   const { locale } = await params;
 
@@ -110,11 +138,22 @@ export default async function LocaleLayout({ children, params }: Props) {
   const messages = await getMessages();
   const navPreviewData = await getNavPreviewData(locale as Language);
   const wikiLinks = getWikiLinks();
+  const siteUrl =
+    process.env.NEXT_PUBLIC_SITE_URL || "https://raymanlegendsretold.wiki";
+  const structuredData = getStructuredData(siteUrl, locale);
 
 	return (
 		<html lang={locale} className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
 			<head>
 				<meta name="google-adsense-account" content="ca-pub-7733402184034568" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData.website) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData.organization) }}
+        />
 				<Script
 					crossOrigin="anonymous"
 					src="https://unpkg.com/same-runtime@0.0.1/dist/index.global.js"

@@ -18,11 +18,38 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
 const LOCALES_DIR = join(__dirname, '../src/locales')
+const EN_FILE = join(LOCALES_DIR, 'en.json')
 
 console.log('🔍 Validating translation files...\n')
 
 let hasErrors = false
 const results = []
+
+function collectLeafPaths(value, basePath = '', paths = []) {
+  if (typeof value === 'string') {
+    paths.push(basePath)
+    return paths
+  }
+
+  if (Array.isArray(value)) {
+    value.forEach((item, index) => {
+      collectLeafPaths(item, `${basePath}[${index}]`, paths)
+    })
+    return paths
+  }
+
+  if (value && typeof value === 'object') {
+    Object.entries(value).forEach(([key, child]) => {
+      const nextPath = basePath ? `${basePath}.${key}` : key
+      collectLeafPaths(child, nextPath, paths)
+    })
+  }
+
+  return paths
+}
+
+const enData = JSON.parse(readFileSync(EN_FILE, 'utf-8'))
+const enLeafPaths = new Set(collectLeafPaths(enData))
 
 try {
   // 读取所有 locale 文件
@@ -41,8 +68,17 @@ try {
       const result = validateTranslations(data, locale)
 
       if (result.success) {
-        console.log(`  ✅ Valid\n`)
-        results.push({ locale, status: 'valid' })
+        const localeLeafPaths = new Set(collectLeafPaths(data))
+        const missingPaths = [...enLeafPaths].filter(path => !localeLeafPaths.has(path))
+
+        if (missingPaths.length > 0) {
+          console.log(`  ❌ Missing ${missingPaths.length} string paths\n`)
+          hasErrors = true
+          results.push({ locale, status: 'invalid', errors: missingPaths })
+        } else {
+          console.log(`  ✅ Valid\n`)
+          results.push({ locale, status: 'valid' })
+        }
       } else {
         console.log(`  ❌ Invalid\n`)
         hasErrors = true

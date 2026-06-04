@@ -1,204 +1,164 @@
 {
-  "nav": {
-    "release": "Release",
-    "platforms": "Platforms",
-    "preorder": "Preorder",
-    "editions": "Editions",
-    "comparison": "Comparison",
-    "guide": "Guide",
-    "walkthrough": "Walkthrough"
-  },
-  "pages": {
-    "release": {
-      "title": "Rayman Legends Retold Release",
-      "description": "Latest Rayman Legends Retold release date coverage, launch timing, official news, and reveal updates in one place.",
-      "metaTitle": "Rayman Legends Retold Release - Launch Date, News & Reveal Updates",
-      "metaDescription": "Track Rayman Legends Retold release date details, launch timing, official news, and State of Play updates with fast-reference release guides.",
-      "categoryLabel": "RELEASE INFO",
-      "whatIs": "What is Release?",
-      "whatIsDescription": "This category collects the official launch timing for Rayman Legends Retold, including release date confirmations, reveal coverage, and the most important launch-window updates.",
-      "why": "Why read release coverage?",
-      "whySteps": {
-        "step1Title": "Track launch timing",
-        "step1Description": "See the current release date, launch window, and any timing changes without checking every store page yourself.",
-        "step2Title": "Catch official news",
-        "step2Description": "Follow announcement summaries, State of Play coverage, and Ubisoft updates that affect launch expectations.",
-        "step3Title": "Plan your buy-in",
-        "step3Description": "Use the release timeline to line up pre-orders, platform choice, and co-op plans before launch day."
-      },
-      "featured": "Featured & Essential",
-      "all": "All Release Articles"
-    },
-    "platforms": {
-      "title": "Rayman Legends Retold Platforms",
-      "description": "Compare Rayman Legends Retold platform coverage across PS5, Xbox Series X|S, Nintendo Switch 2, Steam, Epic, Ubisoft Connect, and cloud services.",
-      "metaTitle": "Rayman Legends Retold Platforms - PS5, Xbox, Switch 2 & PC",
-      "metaDescription": "Check every confirmed Rayman Legends Retold platform, store listing, PC option, and cloud release in one platform hub.",
-      "categoryLabel": "PLATFORMS",
-      "whatIs": "What are Platforms?",
-      "whatIsDescription": "This category tracks where Rayman Legends Retold is playable, which stores currently list it, and what each platform page confirms about editions, features, and access.",
-      "why": "Why check platform guides?",
-      "whySteps": {
-        "step1Title": "Confirm your system",
-        "step1Description": "See whether PS5, Xbox Series X|S, Switch 2, Steam, Epic, or Ubisoft Connect is the best fit for your setup.",
-        "step2Title": "Compare store details",
-        "step2Description": "Different storefronts surface different notes on pricing, co-op, account linking, and availability.",
-        "step3Title": "Avoid platform confusion",
-        "step3Description": "Use one clean reference instead of cross-checking several retailer pages with overlapping information."
-      },
-      "featured": "Featured & Essential",
-      "all": "All Platform Articles"
-    },
-    "preorder": {
-      "title": "Rayman Legends Retold Preorder",
-      "description": "Find preorder status, pricing notes, physical copy details, and launch-buying guidance for Rayman Legends Retold.",
-      "metaTitle": "Rayman Legends Retold Preorder - Price, Physical Copy & Buy Options",
-      "metaDescription": "Track Rayman Legends Retold preorder status, pricing, physical edition availability, and the best ways to buy before launch.",
-      "categoryLabel": "PREORDER",
-      "whatIs": "What is Preorder?",
-      "whatIsDescription": "This category focuses on buying Rayman Legends Retold before launch, covering preorder availability, physical retail notes, and price-focused shopping questions.",
-      "why": "Why follow preorder coverage?",
-      "whySteps": {
-        "step1Title": "Check preorder access",
-        "step1Description": "Know which stores have pre-orders open, which versions are digital-only, and where physical copies are expected.",
-        "step2Title": "Compare prices early",
-        "step2Description": "Use pricing coverage to decide whether to buy immediately, wait for a preferred store, or aim for a retail launch copy.",
-        "step3Title": "Understand bonus timing",
-        "step3Description": "Preorder articles help separate permanent edition content from launch-only or preorder-only offers."
-      },
-      "featured": "Featured & Essential",
-      "all": "All Preorder Articles"
-    },
-    "editions": {
-      "title": "Rayman Legends Retold Editions",
-      "description": "Break down Standard, Deluxe, upgrade, and bonus content so you can choose the right Rayman Legends Retold edition.",
-      "metaTitle": "Rayman Legends Retold Editions - Deluxe, Bonuses & Upgrade Details",
-      "metaDescription": "Compare Rayman Legends Retold editions, Deluxe content, preorder bonuses, DLC expectations, and upgrade paths.",
-      "categoryLabel": "EDITIONS",
-      "whatIs": "What are Editions?",
-      "whatIsDescription": "This category explains how Rayman Legends Retold editions differ, what each bundle includes, and which bonuses are tied to Deluxe, launch, or preorder offers.",
-      "why": "Why compare editions?",
-      "whySteps": {
-        "step1Title": "Pick the right package",
-        "step1Description": "See which edition includes the extras you care about without overpaying for items you will ignore.",
-        "step2Title": "Understand bonus content",
-        "step2Description": "Separate base-game content, costume packs, art extras, and any upgrade-only add-ons clearly.",
-        "step3Title": "Plan future upgrades",
-        "step3Description": "Edition guides make it easier to decide whether to buy Standard now and upgrade later or buy Deluxe immediately."
-      },
-      "featured": "Featured & Essential",
-      "all": "All Edition Articles"
-    },
-    "comparison": {
-      "title": "Rayman Legends Retold Comparison",
-      "description": "Compare Rayman Legends Retold with the 2013 original, remaster expectations, 2.5D roots, and the remake-style changes shown so far.",
-      "metaTitle": "Rayman Legends Retold Comparison - Original vs Remake Explained",
-      "metaDescription": "See how Rayman Legends Retold compares with the original Rayman Legends through remake, remaster, graphics, and gameplay comparisons.",
-      "categoryLabel": "COMPARISON",
-      "whatIs": "What is Comparison?",
-      "whatIsDescription": "This category focuses on how Rayman Legends Retold differs from the original game, especially its visual overhaul, new content, and the remake-versus-remaster question.",
-      "why": "Why read comparisons?",
-      "whySteps": {
-        "step1Title": "Understand what changed",
-        "step1Description": "Comparison pieces show whether Retold is a simple visual update or a deeper reimagining of the original release.",
-        "step2Title": "Set expectations",
-        "step2Description": "Returning fans can quickly judge the scope of new story beats, 3D visuals, and added stage types.",
-        "step3Title": "Spot the major upgrades",
-        "step3Description": "Graphics, presentation, and structure comparisons highlight the biggest differences worth tracking before launch."
-      },
-      "featured": "Featured & Essential",
-      "all": "All Comparison Articles"
-    },
-    "guide": {
-      "title": "Rayman Legends Retold Guide",
-      "description": "Use Rayman Legends Retold guide coverage for beginner tips, developer context, and broad explainers before launch.",
-      "metaTitle": "Rayman Legends Retold Guide - Beginner Tips & Key Info",
-      "metaDescription": "Read Rayman Legends Retold beginner guides, tips and tricks, explainers, and early knowledge hubs in one guide category.",
-      "categoryLabel": "GUIDE",
-      "whatIs": "What is Guide?",
-      "whatIsDescription": "This category groups broad Rayman Legends Retold explainers, beginner tips, and high-level guides that help new players understand the game before diving into specific levels or platform details.",
-      "why": "Why use guide articles?",
-      "whySteps": {
-        "step1Title": "Learn the basics fast",
-        "step1Description": "Start with movement, co-op, collectibles, and overall game structure before chasing niche details.",
-        "step2Title": "Get launch-ready context",
-        "step2Description": "Guide coverage brings together the most important confirmed details in a format that is faster to scan than store pages.",
-        "step3Title": "Build a clean starting plan",
-        "step3Description": "Beginner and overview guides help you decide what to play first, what to replay, and which features matter most."
-      },
-      "featured": "Featured & Essential",
-      "all": "All Guide Articles"
-    },
-    "walkthrough": {
-      "title": "Rayman Legends Retold Walkthrough",
-      "description": "Follow Rayman Legends Retold walkthrough coverage for level flow, route planning, and specific stage guidance like Castle Rock.",
-      "metaTitle": "Rayman Legends Retold Walkthrough - Level Flow & Stage Help",
-      "metaDescription": "Browse Rayman Legends Retold walkthrough guides covering campaign flow, musical stages, level routes, and featured stage help.",
-      "categoryLabel": "WALKTHROUGH",
-      "whatIs": "What is Walkthrough?",
-      "whatIsDescription": "This category focuses on progression flow and stage-by-stage guidance, from broad campaign routes to specific level help for standout sections like Castle Rock.",
-      "why": "Why read walkthroughs?",
-      "whySteps": {
-        "step1Title": "Follow the level flow",
-        "step1Description": "Use walkthrough coverage to understand the order of major challenges, replay goals, and where new content fits in.",
-        "step2Title": "Prepare for difficult stages",
-        "step2Description": "Stage-focused help is useful for musical levels, challenge content, and collectibles that are easy to miss on a first run.",
-        "step3Title": "Improve replay routes",
-        "step3Description": "Walkthroughs make it easier to revisit levels for better Lum routes, hidden Teensies, and cleaner completion."
-      },
-      "featured": "Featured & Essential",
-      "all": "All Walkthrough Articles"
+  "seo": {
+    "home": {
+      "title": "Rayman Legends Retold Wiki - Lançamento, Co-op e Plataformas",
+      "description": "Wiki de Rayman Legends Retold cobrindo data de lançamento, plataformas, co-op, edições, bônus de pré-venda, novos níveis, fases musicais e requisitos para PC.",
+      "keywords": "Rayman Legends Retold, data de lançamento, plataformas, co-op, níveis",
+      "ogTitle": "Rayman Legends Retold Wiki - Lançamento, Co-op e Plataformas",
+      "ogDescription": "Acompanhe a data de lançamento de Rayman Legends Retold, plataformas, edições, recursos de co-op local, novos reinos, trailers e requisitos para PC.",
+      "twitterTitle": "Rayman Legends Retold Wiki - Lançamento, Co-op e Plataformas",
+      "twitterDescription": "Siga a data de lançamento de Rayman Legends Retold, plataformas, co-op, edições e trailers oficiais."
     }
+  },
+  "nav": {
+    "release": "Lançamento",
+    "platforms": "Plataformas",
+    "preorder": "Pré-venda",
+    "editions": "Edições",
+    "comparison": "Comparação",
+    "guide": "Guia",
+    "walkthrough": "Detonado"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogue no Steam",
+    "switchLanguage": "Mudar Idioma",
+    "switchTheme": "Mudar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar ao Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais",
+    "articlesComingSoon": "Artigos em breve"
+  },
+  "hero": {
+    "badge": "Aventura de Plataforma 3D Reimaginada",
+    "title": "Rayman Legends Retold Wiki",
+    "description": "Acompanhe a data de lançamento de Rayman Legends Retold, plataformas, edições, recursos de co-op, novos reinos, fases musicais, requisitos para PC e bônus de pré-venda.",
+    "getFreeCodesCTA": "Visite Rayman Legends Retold na Ubisoft",
+    "playOnSteamCTA": "Pré-venda de Rayman Legends Retold no Steam",
+    "stats": {
+      "stat1": {
+        "value": "1 de out. de 2026",
+        "label": "Data de Lançamento"
+      },
+      "stat2": {
+        "value": "PS5, Xbox, Switch 2, PC",
+        "label": "Plataformas"
+      },
+      "stat3": {
+        "value": "Até 4",
+        "label": "Co-op Local"
+      },
+      "stat4": {
+        "value": "$39,99",
+        "label": "Preço Inicial"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Trailer de Revelação Oficial",
+    "description": "Assista ao trailer oficial de revelação de Rayman Legends Retold da Ubisoft com o último vislumbre dos novos reinos, cinemáticas dubladas e fases musicais."
+  },
+  "tools": {
+    "title": "Rayman Legends Retold",
+    "titleHighlight": "Módulos",
+    "subtitle": "Pule para os principais tópicos de lançamento, plataforma e jogabilidade a partir da página inicial.",
+    "cards": [
+      {
+        "icon": "Calendar",
+        "title": "Informações de Lançamento",
+        "description": "Rayman Legends Retold será lançado em 1 de outubro de 2026. Está confirmado para PlayStation 5, Xbox Series X|S, Nintendo Switch 2, PC, GeForce NOW e Blacknut."
+      },
+      {
+        "icon": "Package",
+        "title": "Edições",
+        "description": "Rayman Legends Retold possui as opções Standard, Deluxe, Launch Edition e Deluxe Upgrade. Qualquer pré-venda inclui o Hoodlum Havoc Pack."
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Jogabilidade",
+        "description": "Rayman Legends Retold é uma reimaginação 3D ousada do jogo de plataforma de 2013, não apenas um simples port. Ele adiciona novo conteúdo de história, novas fases, cinemáticas dubladas, montarias em dragões e recursos de co-op atualizados."
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes",
+        "description": "Comece com o básico: mova-se com precisão, colete Lums, resgate Teensies, jogue fases novamente e use o co-op sem perder o foco. O jogo foi feito para jogadores solo e co-op local de até 4 jogadores."
+      },
+      {
+        "icon": "Map",
+        "title": "Detonado",
+        "description": "Siga a estrutura de aventura revelada: a Glade of Dreams reimaginada, níveis que retornam, o sexto reino, fases musicais, montarias em dragões e desafios da Cave of Trials."
+      },
+      {
+        "icon": "Users",
+        "title": "Personagens",
+        "description": "Conheça os heróis confirmados, aliados, Teensies resgatados e a nova ameaça por trás da aventura recontada na Glade of Dreams."
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Multijogador",
+        "description": "Jogue a aventura completa em co-op local, compita por Lums e Teensies, e depois mude para o modo de festa Kung Foot atualizado."
+      },
+      {
+        "icon": "Monitor",
+        "title": "Especificações de PC",
+        "description": "Verifique as especificações de PC, idiomas suportados, requisitos de conta e notas específicas da loja antes de jogar no Steam ou Epic Games Store."
+      }
+    ]
   },
   "modules": {
     "release-date-and-platforms": {
       "id": "release-date-and-platforms",
       "order": 1,
-      "name": "Rayman Legends Retold Release Date and Platforms",
+      "name": "Data de Lançamento e Plataformas de Rayman Legends Retold",
       "layout": {
         "type": "table",
-        "desktop": "Full-width comparison table with platform, release date, store access, purchase status, and key notes.",
-        "mobile": "Stacked platform cards with release date and store status shown first."
+        "desktop": "Tabela de comparação de largura total com plataforma, data de lançamento, acesso à loja, status de compra e notas principais.",
+        "mobile": "Cartões de plataforma empilhados com a data de lançamento e o status da loja exibidos primeiro."
       },
-      "eyebrow": "Release Info",
-      "title": "Rayman Legends Retold Release Date and Platforms",
-      "subtitle": "Rayman Legends Retold launches on October 1, 2026. It is confirmed for PS5, Xbox Series X|S, Nintendo Switch 2, PC, GeForce NOW, and Blacknut.",
-      "intro": "Use this quick platform table to check where Rayman Legends Retold is available, which stores support pre-order or wishlist actions, and what each platform listing confirms for launch.",
+      "eyebrow": "Informações de Lançamento",
+      "title": "Data de Lançamento e Plataformas de Rayman Legends Retold",
+      "subtitle": "Rayman Legends Retold será lançado em 1 de outubro de 2026. Está confirmado para PlayStation 5, Xbox Series X|S, Nintendo Switch 2, PC, GeForce NOW e Blacknut.",
+      "intro": "Use esta tabela rápida de plataformas para verificar onde Rayman Legends Retold está disponível, quais lojas suportam ações de pré-venda ou lista de desejos e o que cada listagem de plataforma confirma para o lançamento.",
       "items": [
         {
           "platform": "PlayStation 5",
-          "release_date": "October 1, 2026",
+          "release_date": "1 de outubro de 2026",
           "store": "PlayStation Store",
-          "purchase_status": "Pre-order and wishlist available",
-          "edition_notes": "Standard Edition is $39.99 and Deluxe Edition is $49.99 on PlayStation Store."
+          "purchase_status": "Pré-venda e lista de desejos disponíveis",
+          "edition_notes": "A Edição Standard custa $39,99 e a Edição Deluxe custa $49,99 na PlayStation Store."
         },
         {
           "platform": "Xbox Series X|S",
-          "release_date": "October 1, 2026",
+          "release_date": "1 de outubro de 2026",
           "store": "Xbox Store",
-          "purchase_status": "Pre-order available",
-          "edition_notes": "Standard Edition is $39.99 and Deluxe Edition is $49.99 on Xbox Store. Xbox listing confirms local multiplayer for 2-4 players."
+          "purchase_status": "Pré-venda disponível",
+          "edition_notes": "A Edição Standard custa $39,99 e a Edição Deluxe custa $49,99 na Xbox Store. A listagem do Xbox confirma multijogador local para 2-4 jogadores."
         },
         {
           "platform": "Nintendo Switch 2",
-          "release_date": "October 1, 2026",
-          "store": "Nintendo Switch 2 retail and Ubisoft-supported availability",
-          "purchase_status": "Pre-order supported through official launch channels",
-          "edition_notes": "Ubisoft confirms Switch 2 as a launch platform. The retail Launch Edition includes physical extras."
+          "release_date": "1 de outubro de 2026",
+          "store": "Varejo do Nintendo Switch 2 e disponibilidade com suporte da Ubisoft",
+          "purchase_status": "Pré-venda suportada através dos canais oficiais de lançamento",
+          "edition_notes": "A Ubisoft confirma o Switch 2 como uma plataforma de lançamento. A Launch Edition de varejo inclui extras físicos."
         },
         {
           "platform": "PC",
-          "release_date": "October 1, 2026",
-          "store": "Ubisoft Store, Ubisoft Connect, Steam, and Epic Games Store",
-          "purchase_status": "Pre-purchase and wishlist available on PC stores",
-          "edition_notes": "Steam and Epic list the Standard Edition at $39.99 and the Deluxe Edition at $49.99."
+          "release_date": "1 de outubro de 2026",
+          "store": "Ubisoft Store, Ubisoft Connect, Steam e Epic Games Store",
+          "purchase_status": "Pré-compra e lista de desejos disponíveis nas lojas de PC",
+          "edition_notes": "A Steam e a Epic listam a Edição Standard por $39,99 e a Edição Deluxe por $49,99."
         },
         {
-          "platform": "Cloud Services",
-          "release_date": "October 1, 2026",
-          "store": "GeForce NOW and Blacknut",
-          "purchase_status": "Confirmed by Ubisoft for launch availability",
-          "edition_notes": "Cloud availability is listed alongside the console and PC launch platforms."
+          "platform": "Serviços em Nuvem",
+          "release_date": "1 de outubro de 2026",
+          "store": "GeForce NOW e Blacknut",
+          "purchase_status": "Confirmado pela Ubisoft para disponibilidade no lançamento",
+          "edition_notes": "A disponibilidade em nuvem está listada juntamente com as plataformas de lançamento para console e PC."
         }
       ],
       "source_urls": [
@@ -210,80 +170,80 @@
         "https://www.xbox.com/en-US/games/store/rayman-legends-retold/9NMP2PLJN7N9/0017"
       ],
       "cta": {
-        "label": "Open Rayman Legends Retold Release Date and Platforms",
+        "label": "Abrir Data de Lançamento e Plataformas de Rayman Legends Retold",
         "href": "/release-date-and-platforms"
       }
     },
     "pre-order-editions-and-bonuses": {
       "id": "pre-order-editions-and-bonuses",
       "order": 2,
-      "name": "Rayman Legends Retold Pre Order Editions and Bonuses",
+      "name": "Edições de Pré-venda e Bônus de Rayman Legends Retold",
       "layout": {
         "type": "table",
-        "desktop": "Edition comparison table with price, format, included content, and best-use notes.",
-        "mobile": "Accordion-style edition cards with included content expanded by tap."
+        "desktop": "Tabela de comparação de edições com preço, formato, conteúdo incluído e notas de melhor uso.",
+        "mobile": "Cartões de edição estilo acordeão com conteúdo incluído expandido por toque."
       },
-      "eyebrow": "Editions",
-      "title": "Rayman Legends Retold Pre-Order Editions and Bonuses",
-      "subtitle": "Rayman Legends Retold has Standard, Deluxe, Launch Edition, and Deluxe Upgrade options. Any pre-order includes the Hoodlum Havoc Pack.",
-      "intro": "Compare each edition before buying. The core package includes Rayman Legends Retold plus Rayman Origins: Enhanced Edition, while the Deluxe and Launch options add cosmetic or physical extras.",
+      "eyebrow": "Edições",
+      "title": "Edições de Pré-venda e Bônus de Rayman Legends Retold",
+      "subtitle": "Rayman Legends Retold possui opções de Edição Standard, Deluxe, Launch Edition e Upgrade Deluxe. Qualquer pré-venda inclui o Hoodlum Havoc Pack.",
+      "intro": "Compare cada edição antes de comprar. O pacote principal inclui Rayman Legends Retold mais Rayman Origins: Enhanced Edition, enquanto as opções Deluxe e Launch adicionam extras cosméticos ou físicos.",
       "items": [
         {
-          "edition": "Standard Edition",
-          "format": "Digital and physical availability by platform",
-          "price": "$39.99 / €39.99",
+          "edition": "Edição Standard",
+          "format": "Disponibilidade digital e física por plataforma",
+          "price": "$39,99 / €39,99",
           "includes": [
-            "Rayman Legends Retold base game",
+            "Jogo base Rayman Legends Retold",
             "Rayman Origins: Enhanced Edition",
-            "Hoodlum Havoc Pack when pre-ordered"
+            "Hoodlum Havoc Pack na pré-venda"
           ],
-          "best_for": "Players who want the full game package at the base price."
+          "best_for": "Jogadores que desejam o pacote completo do jogo pelo preço base."
         },
         {
-          "edition": "Deluxe Edition",
-          "format": "Digital only",
-          "price": "$49.99 / €49.99",
+          "edition": "Edição Deluxe",
+          "format": "Apenas digital",
+          "price": "$49,99 / €49,99",
           "includes": [
-            "Rayman Legends Retold base game",
+            "Jogo base Rayman Legends Retold",
             "Rayman Origins: Enhanced Edition",
-            "Retro Pack with 4 costumes",
-            "In-game Art Gallery",
-            "Hoodlum Havoc Pack when pre-ordered"
+            "Retro Pack com 4 trajes",
+            "Galeria de Arte no jogo",
+            "Hoodlum Havoc Pack na pré-venda"
           ],
-          "best_for": "Players who want the digital extras, classic-inspired costumes, and art gallery."
+          "best_for": "Jogadores que desejam os extras digitais, trajes inspirados nos clássicos e a galeria de arte."
         },
         {
           "edition": "Launch Edition",
-          "format": "Retail only",
-          "price": "Retail edition pricing by store",
+          "format": "Apenas varejo",
+          "price": "Preço da edição de varejo por loja",
           "includes": [
-            "Rayman Legends Retold base game",
+            "Jogo base Rayman Legends Retold",
             "Rayman Origins: Enhanced Edition",
-            "Glade of Dreams printed map",
-            "Set of three lithographs",
-            "Slipcase",
-            "Hoodlum Havoc Pack when pre-ordered"
+            "Mapa impresso de Glade of Dreams",
+            "Conjunto de três litografias",
+            "Capa protetora (Slipcase)",
+            "Hoodlum Havoc Pack na pré-venda"
           ],
-          "best_for": "Collectors who want physical extras with the launch copy."
+          "best_for": "Colecionadores que desejam extras físicos com a cópia de lançamento."
         },
         {
-          "edition": "Deluxe Upgrade Pack",
-          "format": "Digital add-on",
-          "price": "Add-on pricing by store",
+          "edition": "Pacote de Upgrade Deluxe",
+          "format": "Conteúdo adicional digital",
+          "price": "Preço do conteúdo adicional varia por loja",
           "includes": [
             "Retro Pack",
-            "In-game Art Gallery"
+            "Galeria de Arte no jogo"
           ],
-          "best_for": "Players who buy the Standard Edition first and want to add the Deluxe extras later."
+          "best_for": "Jogadores que compram a Edição Padrão primeiro e desejam adicionar os extras da Deluxe mais tarde."
         },
         {
           "edition": "Hoodlum Havoc Pack",
-          "format": "Pre-order bonus for any edition",
-          "price": "Included with pre-order",
+          "format": "Bônus de pré-venda para qualquer edição",
+          "price": "Incluído na pré-venda",
           "includes": [
-            "2 costumes for Rayman and Globox inspired by Rayman 3: Hoodlum Havoc"
+            "2 trajes para Rayman e Globox inspirados em Rayman 3: Hoodlum Havoc"
           ],
-          "best_for": "Players who pre-order before launch and want the exclusive costume bonus."
+          "best_for": "Jogadores que fazem a pré-venda antes do lançamento e desejam o bônus de traje exclusivo."
         }
       ],
       "source_urls": [
@@ -295,71 +255,71 @@
         "https://www.xbox.com/en-US/games/store/rayman-legends-retold/9NMP2PLJN7N9/0017"
       ],
       "cta": {
-        "label": "Open Rayman Legends Retold Pre-Order Editions and Bonuses",
+        "label": "Abrir Edições e Bônus de Pré-venda de Rayman Legends Retold",
         "href": "/pre-order-editions-and-bonuses"
       }
     },
     "gameplay-and-new-features": {
       "id": "gameplay-and-new-features",
       "order": 3,
-      "name": "Rayman Legends Retold Gameplay and New Features",
+      "name": "Jogabilidade e Novos Recursos de Rayman Legends Retold",
       "layout": {
         "type": "card-list",
-        "desktop": "Three-column feature card grid with short descriptions and player value notes.",
-        "mobile": "Single-column feature cards with compact labels."
+        "desktop": "Grade de cartões de recursos de três colunas com descrições curtas e notas de valor para o jogador.",
+        "mobile": "Cartões de recursos de coluna única com rótulos compactos."
       },
-      "eyebrow": "Gameplay",
-      "title": "Rayman Legends Retold Gameplay and New Features",
-      "subtitle": "Rayman Legends Retold is a bold 3D reimagining of the 2013 platformer, not just a simple port. It adds new story content, new stages, voiced cinematics, dragon rides, and updated co-op features.",
-      "intro": "This module explains what is new in Rayman Legends Retold and how the remake changes the original fast-paced platforming formula while keeping Rayman’s core movement, rhythm stages, co-op chaos, and collectible-focused level design.",
+      "eyebrow": "Jogabilidade",
+      "title": "Jogabilidade e Novos Recursos de Rayman Legends Retold",
+      "subtitle": "Rayman Legends Retold é uma ousada reimaginação em 3D do jogo de plataforma de 2013, não apenas um simples port. Ele adiciona novo conteúdo de história, novas fases, cenas dubladas, passeios de dragão e recursos de co-op atualizados.",
+      "intro": "Este módulo explica o que há de novo em Rayman Legends Retold e como o remake altera a fórmula original de plataforma acelerada, mantendo a movimentação central de Rayman, fases de ritmo, o caos do co-op e o design de níveis focado em colecionáveis.",
       "items": [
         {
-          "title": "Expanded 3D Reimagining",
-          "type": "Release Type",
-          "description": "Rayman Legends Retold rebuilds the classic side-scrolling platformer with stunning 3D visuals, camera movement, and more cinematic presentation.",
-          "player_value": "Good for players who want the familiar Rayman flow with a modern visual style."
+          "title": "Reimaginação 3D Expandida",
+          "type": "Tipo de Lançamento",
+          "description": "Rayman Legends Retold reconstrói o clássico jogo de plataforma de rolagem lateral com visuais 3D impressionantes, movimento de câmera e uma apresentação mais cinematográfica.",
+          "player_value": "Bom para jogadores que desejam o fluxo familiar de Rayman com um estilo visual moderno."
         },
         {
-          "title": "New Retold Story",
-          "type": "Story",
-          "description": "A shadowy villain spreads corruption across the Glade of Dreams, sending Rayman, Globox, Barbara, Grand Minimus, and Murphy on a new adventure.",
-          "player_value": "Gives returning players a fresh reason to replay the world instead of only revisiting old levels."
+          "title": "Nova História Retold",
+          "type": "História",
+          "description": "Um vilão sombrio espalha corrupção pelo Glade of Dreams, enviando Rayman, Globox, Barbara, Grand Minimus e Murphy em uma nova aventura.",
+          "player_value": "Dá aos jogadores veteranos um novo motivo para jogar novamente o mundo, em vez de apenas revisitar níveis antigos."
         },
         {
-          "title": "Fully Voiced Cinematics",
-          "type": "Presentation",
-          "description": "The game adds voiced cinematics and fully voiced characters, giving the story and cast a more expressive style.",
-          "player_value": "Makes the adventure easier to follow for new players and more lively for co-op groups."
+          "title": "Cenas Totalmente Dubladas",
+          "type": "Apresentação",
+          "description": "O jogo adiciona cenas dubladas e personagens com vozes completas, dando à história e ao elenco um estilo mais expressivo.",
+          "player_value": "Torna a aventura mais fácil de acompanhar para novos jogadores e mais viva para grupos de co-op."
         },
         {
-          "title": "Sixth Realm and Returning Levels",
-          "type": "World Content",
-          "description": "A rich selection of iconic levels returns alongside a mysterious new sixth realm filled with hidden Teensies and new surprises.",
-          "player_value": "Adds new exploration goals while keeping the collectible-heavy structure fans expect."
+          "title": "Sexto Reino e Níveis Retornando",
+          "type": "Conteúdo de Mundo",
+          "description": "Uma rica seleção de níveis icônicos retorna ao lado de um misterioso novo sexto reino repleto de Teensies escondidos e novas surpresas.",
+          "player_value": "Adiciona novos objetivos de exploração enquanto mantém a estrutura focada em colecionáveis que os fãs esperam."
         },
         {
-          "title": "Four New Musical Stages",
-          "type": "Rhythm Platforming",
-          "description": "New musical stages ask players to time movement with the beat while running, jumping, gliding, and punching through hazards.",
-          "player_value": "Best for players who enjoy rhythm-based platforming and replaying stages for cleaner runs."
+          "title": "Quatro Novas Fases Musicais",
+          "type": "Plataforma de Ritmo",
+          "description": "Novas fases musicais pedem que os jogadores sincronizem o movimento com a batida enquanto correm, pulam, planam e socam através de perigos.",
+          "player_value": "Ideal para jogadores que gostam de plataforma baseada em ritmo e de repetir fases para execuções mais limpas."
         },
         {
-          "title": "Dragon Rides and Cave of Trials",
-          "type": "Challenges",
-          "description": "Rayman Legends Retold adds epic dragon rides and Cave of Trials challenges that push movement timing and reaction speed.",
-          "player_value": "Adds higher-skill replay content beyond normal story progression."
+          "title": "Passeios de Dragão e Cave of Trials",
+          "type": "Desafios",
+          "description": "Rayman Legends Retold adiciona passeios épicos de dragão e desafios na Cave of Trials que exigem precisão de movimento e velocidade de reação.",
+          "player_value": "Adiciona conteúdo de alta habilidade para rejogabilidade além da progressão normal da história."
         },
         {
-          "title": "Up to 4-Player Couch Co-op",
+          "title": "Co-op Local para até 4 Jogadores",
           "type": "Co-op",
-          "description": "The full adventure supports solo play or up to four players in couch co-op, with players racing for Lums and competing to rescue Teensies.",
-          "player_value": "Ideal for family play, local co-op sessions, and chaotic party-style platforming."
+          "description": "A aventura completa suporta jogo solo ou até quatro jogadores em co-op local, com jogadores competindo por Lums e resgatando Teensies.",
+          "player_value": "Ideal para jogar em família, sessões de co-op local e plataforma caótico estilo festa."
         },
         {
-          "title": "Improved Kung Foot",
-          "type": "Party Mode",
-          "description": "Kung Foot returns with improved controls, power-ups, and customizable rules for local competitive play.",
-          "player_value": "Adds a quick side mode for groups who want fast matches outside the main adventure."
+          "title": "Kung Foot Aprimorado",
+          "type": "Modo Festa",
+          "description": "Kung Foot retorna com controles aprimorados, power-ups e regras personalizáveis para jogo competitivo local.",
+          "player_value": "Adiciona um modo secundário rápido para grupos que desejam partidas velozes fora da aventura principal."
         }
       ],
       "source_urls": [
@@ -370,77 +330,77 @@
         "https://store.epicgames.com/p/rayman-legends-retold?lang=en-US"
       ],
       "cta": {
-        "label": "Open Rayman Legends Retold Gameplay and New Features",
+        "label": "Abrir Jogabilidade e Novos Recursos de Rayman Legends Retold",
         "href": "/gameplay-and-new-features"
       }
     },
     "beginner-guide": {
       "id": "beginner-guide",
       "order": 4,
-      "name": "Rayman Legends Retold Beginner Guide",
+      "name": "Guia para Iniciantes de Rayman Legends Retold",
       "layout": {
         "type": "step-by-step",
-        "desktop": "Vertical guide timeline with step number, action, and practical tip.",
-        "mobile": "Compact numbered steps with one tip per card."
+        "desktop": "Linha do tempo vertical do guia com número da etapa, ação e dica prática.",
+        "mobile": "Etapas numeradas compactas com uma dica por cartão."
       },
-      "eyebrow": "Beginner Guide",
-      "title": "Rayman Legends Retold Beginner Guide",
-      "subtitle": "Start with the basics: move cleanly, collect Lums, rescue Teensies, replay stages, and use co-op without losing focus. The game is built for solo players and up to 4-player couch co-op.",
-      "intro": "Rayman Legends Retold rewards simple movement done well. New players should focus on smooth jumps, smart gliding, clear attacks, hidden Teensies, and replaying stages to improve completion before taking on harder challenges like musical stages and the Cave of Trials.",
+      "eyebrow": "Guia para Iniciantes",
+      "title": "Guia para Iniciantes de Rayman Legends Retold",
+      "subtitle": "Comece pelo básico: mova-se com precisão, colete Lums, resgate Teensies, repita fases e use o co-op sem perder o foco. O jogo foi criado para jogadores solo e co-op local de até 4 jogadores.",
+      "intro": "Rayman Legends Retold recompensa movimentos simples bem executados. Novos jogadores devem focar em saltos suaves, planeio inteligente, ataques precisos, Teensies escondidos e repetir fases para melhorar a conclusão antes de enfrentar desafios mais difíceis, como fases musicais e a Cave of Trials.",
       "items": [
         {
           "step": 1,
-          "title": "Learn the Core Movement First",
-          "action": "Practice running, jumping, gliding, and punching before chasing every collectible.",
-          "tip": "Rayman levels move fast, so clean movement matters more than rushing on your first run."
+          "title": "Aprenda a Movimentação Básica Primeiro",
+          "action": "Pratique correr, pular, planar e socar antes de tentar pegar todos os colecionáveis.",
+          "tip": "Os níveis de Rayman são rápidos, então uma movimentação limpa é mais importante do que correr na sua primeira tentativa."
         },
         {
           "step": 2,
-          "title": "Use Punching to Clear Space",
-          "action": "Punch enemies and obstacles when a path gets crowded.",
-          "tip": "Attacking early keeps your jump path open and helps avoid losing rhythm in busy sections."
+          "title": "Use socos para abrir caminho",
+          "action": "Dê socos em inimigos e obstáculos quando o caminho estiver congestionado.",
+          "tip": "Atacar cedo mantém sua trajetória de salto livre e ajuda a evitar perder o ritmo em seções movimentadas."
         },
         {
           "step": 3,
-          "title": "Collect Lums on the Main Route",
-          "action": "Follow the obvious trail of Lums during your first clear, then replay for missed ones.",
-          "tip": "Lums guide the safest path through many sections and are useful for completion-focused runs."
+          "title": "Colete Lums na rota principal",
+          "action": "Siga a trilha óbvia de Lums durante sua primeira passagem e, depois, jogue novamente para pegar os que perdeu.",
+          "tip": "Os Lums indicam o caminho mais seguro em muitas seções e são úteis para completar o jogo 100%."
         },
         {
           "step": 4,
-          "title": "Search for Hidden Teensies",
-          "action": "Check side paths, suspicious gaps, and alternate routes instead of only running straight to the exit.",
-          "tip": "Teensies are a major completion target, and many are placed slightly off the main route."
+          "title": "Procure por Teensies escondidos",
+          "action": "Verifique caminhos laterais, vãos suspeitos e rotas alternativas em vez de apenas correr direto para a saída.",
+          "tip": "Os Teensies são um objetivo principal de conclusão, e muitos estão posicionados ligeiramente fora da rota principal."
         },
         {
           "step": 5,
-          "title": "Replay Levels for Better Completion",
-          "action": "After finishing a stage, replay it to collect missed Lums and rescue missed Teensies.",
-          "tip": "Replays are the easiest way to learn enemy timing, hidden routes, and cleaner movement."
+          "title": "Jogue fases novamente para uma melhor conclusão",
+          "action": "Após terminar uma fase, jogue-a novamente para coletar os Lums perdidos e resgatar os Teensies que ficaram para trás.",
+          "tip": "Rejogar fases é a maneira mais fácil de aprender o tempo dos inimigos, rotas escondidas e movimentos mais fluidos."
         },
         {
           "step": 6,
-          "title": "Treat Musical Stages Like Rhythm Challenges",
-          "action": "Move with the beat and avoid random button mashing during music-based levels.",
-          "tip": "The new musical stages reward timing, so listening to the soundtrack helps as much as watching the screen."
+          "title": "Trate as fases musicais como desafios de ritmo",
+          "action": "Mova-se no ritmo e evite apertar botões aleatoriamente durante as fases baseadas em música.",
+          "tip": "As novas fases musicais recompensam o tempo, então ouvir a trilha sonora ajuda tanto quanto observar a tela."
         },
         {
           "step": 7,
-          "title": "Use Co-op Roles in 4-Player Sessions",
-          "action": "Let one player lead the route while others focus on Lums, enemies, and hidden Teensies.",
-          "tip": "Co-op can get chaotic, so simple roles help the group complete stages instead of knocking each other around."
+          "title": "Use papéis cooperativos em sessões de 4 jogadores",
+          "action": "Deixe um jogador liderar a rota enquanto os outros focam em Lums, inimigos e Teensies escondidos.",
+          "tip": "O modo cooperativo pode ser caótico, então papéis simples ajudam o grupo a completar as fases em vez de atrapalharem uns aos outros."
         },
         {
           "step": 8,
-          "title": "Save Cave of Trials for Skill Practice",
-          "action": "Try Cave of Trials challenges after you are comfortable with jumping, gliding, and reaction timing.",
-          "tip": "These challenges are built to test movement skill and are better after learning the basic level flow."
+          "title": "Deixe a Cave of Trials para praticar habilidades",
+          "action": "Tente os desafios da Cave of Trials depois de se sentir confortável com saltos, planagem e tempo de reação.",
+          "tip": "Esses desafios são feitos para testar a habilidade de movimento e são melhores após aprender o fluxo básico das fases."
         },
         {
           "step": 9,
-          "title": "Play Kung Foot as a Break Mode",
-          "action": "Use Kung Foot when your group wants quick competitive matches instead of story progress.",
-          "tip": "Improved controls, power-ups, and custom rules make it a good party mode between adventure stages."
+          "title": "Jogue Kung Foot como um modo de pausa",
+          "action": "Use o Kung Foot quando seu grupo quiser partidas competitivas rápidas em vez de progresso na história.",
+          "tip": "Controles aprimorados, power-ups e regras personalizadas tornam este um ótimo modo de festa entre as fases de aventura."
         }
       ],
       "source_urls": [
@@ -451,79 +411,79 @@
         "https://store.epicgames.com/p/rayman-legends-retold?lang=en-US"
       ],
       "cta": {
-        "label": "Open Rayman Legends Retold Beginner Guide",
+        "label": "Abrir Guia para Iniciantes de Rayman Legends Retold",
         "href": "/beginner-guide"
       }
     },
     "walkthrough-and-levels": {
       "id": "walkthrough-and-levels",
       "order": 5,
-      "name": "Rayman Legends Retold Walkthrough and Levels",
+      "name": "Detonado e Fases de Rayman Legends Retold",
       "layout": {
         "type": "step-by-step",
-        "desktop": "Two-column walkthrough timeline with step cards and collectible goals",
-        "mobile": "Single-column vertical steps with compact goal labels"
+        "desktop": "Linha do tempo de detonado em duas colunas com cartões de passo a passo e objetivos de colecionáveis",
+        "mobile": "Passos verticais em coluna única com etiquetas de objetivos compactas"
       },
-      "eyebrow": "Walkthrough",
-      "title": "Rayman Legends Retold Walkthrough and Level Flow",
-      "subtitle": "Follow the revealed adventure structure: the reimagined Glade of Dreams, returning levels, the sixth realm, musical stages, dragon rides, and Cave of Trials challenges.",
-      "intro": "Rayman Legends Retold rebuilds the 2013 platforming adventure with new 3D visuals, a retold story, fully voiced cinematics, and new gameplay content. Use this module as a clean route map for what players will do first, what to replay for collectibles, and which revealed challenge types matter most.",
+      "eyebrow": "Detonado",
+      "title": "Detonado e Fluxo de Fases de Rayman Legends Retold",
+      "subtitle": "Siga a estrutura de aventura revelada: o reimaginado Glade of Dreams, fases que retornam, o sexto reino, fases musicais, voos de dragão e desafios da Cave of Trials.",
+      "intro": "Rayman Legends Retold reconstrói a aventura de plataforma de 2013 com novos visuais 3D, uma história recontada, cinemáticas totalmente dubladas e novo conteúdo de jogabilidade. Use este módulo como um mapa de rota limpo para o que os jogadores farão primeiro, o que rejogar para colecionáveis e quais tipos de desafios revelados são mais importantes.",
       "items": [
         {
           "step": 1,
-          "title": "Enter the Glade of Dreams",
-          "type": "Story Opening",
-          "details": "Begin the adventure as a shadowy villain spreads chaos and corruption across the Glade of Dreams. Rayman and his friends set out to restore peace and rescue Teensies across the realms.",
-          "player_goal": "Learn the basic loop: leap, glide, punch enemies, explore side paths, and watch for collectible routes."
+          "title": "Entre no Glade of Dreams",
+          "type": "Início da História",
+          "details": "Comece a aventura enquanto um vilão sombrio espalha caos e corrupção pelo Glade of Dreams. Rayman e seus amigos partem para restaurar a paz e resgatar Teensies pelos reinos.",
+          "player_goal": "Aprenda o ciclo básico: saltar, planar, socar inimigos, explorar caminhos laterais e ficar atento a rotas de colecionáveis."
         },
         {
           "step": 2,
-          "title": "Use the Level Hub",
-          "type": "Progression Hub",
-          "details": "The hub connects the opening worlds, replay routes, extra unlocks, and challenge access. Lums return as a currency-style collectible used to unlock extra content such as time trial levels.",
-          "player_goal": "Collect Lums during every run and revisit the hub when new unlocks become available."
+          "title": "Use o Hub de Fases",
+          "type": "Hub de Progressão",
+          "details": "O hub conecta os mundos iniciais, rotas de rejogabilidade, desbloqueios extras e acesso a desafios. Os Lums retornam como um colecionável estilo moeda usado para desbloquear conteúdo extra, como fases de contra-relógio.",
+          "player_goal": "Colete Lums durante cada corrida e revisite o hub quando novos desbloqueios estiverem disponíveis."
         },
         {
           "step": 3,
-          "title": "Clear Returning Iconic Levels",
-          "type": "Main Levels",
-          "details": "A rich selection of iconic levels returns with new visuals, reworked presentation, and more immersive character interactions. These stages keep the fast side-scrolling platforming focus while adding a more cinematic 3D look.",
-          "player_goal": "Complete each stage once, then replay for missed Teensies, Lums, and cleaner movement routes."
+          "title": "Complete Fases Icônicas que Retornam",
+          "type": "Fases Principais",
+          "details": "Uma rica seleção de fases icônicas retorna com novos visuais, apresentação retrabalhada e interações de personagens mais imersivas. Essas fases mantêm o foco na plataforma de rolagem lateral rápida, adicionando um visual 3D mais cinematográfico.",
+          "player_goal": "Complete cada fase uma vez, depois jogue novamente para pegar Teensies perdidos, Lums e rotas de movimento mais limpas."
         },
         {
           "step": 4,
-          "title": "Explore the Mysterious Sixth Realm",
-          "type": "New Realm",
-          "details": "The remake adds a never-before-seen sixth realm to expand the adventure beyond the original level set. This realm is positioned as one of the key new areas in the retold journey.",
-          "player_goal": "Treat the sixth realm as the major new-world target after learning the returning level rhythm."
+          "title": "Explore o Misterioso Sexto Reino",
+          "type": "Novo Reino",
+          "details": "O remake adiciona um sexto reino nunca antes visto para expandir a aventura além do conjunto original de fases. Este reino é posicionado como uma das principais novas áreas na jornada recontada.",
+          "player_goal": "Trate o sexto reino como o principal objetivo de novo mundo após aprender o ritmo das fases que retornam."
         },
         {
           "step": 5,
-          "title": "Play the Four New Musical Stages",
-          "type": "Rhythm Platforming",
-          "details": "Four all-new musical stages join the campaign. These levels are built around movement synced to the beat, turning jumps, attacks, and timing into part of the soundtrack flow.",
-          "player_goal": "Watch the beat, time movement carefully, and replay stages to improve rhythm-based routes."
+          "title": "Jogue as Quatro Novas Fases Musicais",
+          "type": "Plataforma de Ritmo",
+          "details": "Quatro fases musicais totalmente novas se juntam à campanha. Essas fases são construídas em torno de movimentos sincronizados com a batida, transformando saltos, ataques e tempo em parte do fluxo da trilha sonora.",
+          "player_goal": "Observe a batida, cronometre o movimento cuidadosamente e jogue as fases novamente para melhorar as rotas baseadas em ritmo."
         },
         {
           "step": 6,
-          "title": "Ride Dragons Through Flight Sequences",
-          "type": "Dragon Ride",
-          "details": "Dragon ride stages add flight-focused action with fire breathing, barriers to destroy, pillars to dodge, and Teensies to protect during fast movement sequences.",
-          "player_goal": "Use dragon fire to open the route, dodge hazards early, and keep Teensies safe through the sequence."
+          "title": "Monte em Dragões em Sequências de Voo",
+          "type": "Voo de Dragão",
+          "details": "As fases de voo de dragão adicionam ação focada em voo com sopro de fogo, barreiras para destruir, pilares para desviar e Teensies para proteger durante sequências de movimento rápido.",
+          "player_goal": "Use o fogo do dragão para abrir a rota, desvie de perigos cedo e mantenha os Teensies seguros durante a sequência."
         },
         {
           "step": 7,
-          "title": "Push Through the Cave of Trials",
-          "type": "Challenge Mode",
-          "details": "The Cave of Trials offers ongoing free challenges that test tighter movement, attacks, and route mastery. These stages are designed for players who want harder replay goals beyond the main adventure path.",
-          "player_goal": "Use trials for skill practice, faster routes, and repeatable post-story challenge progression."
+          "title": "Avance pela Cave of Trials",
+          "type": "Modo Desafio",
+          "details": "A Cave of Trials oferece desafios gratuitos contínuos que testam movimentos mais precisos, ataques e domínio de rotas. Essas fases são projetadas para jogadores que desejam objetivos de rejogabilidade mais difíceis além do caminho principal da aventura.",
+          "player_goal": "Use os desafios para praticar habilidades, encontrar rotas mais rápidas e progredir em desafios repetíveis após a história."
         },
         {
           "step": 8,
-          "title": "Replay for Lums, Teensies, and Time Trials",
-          "type": "Replay Goals",
-          "details": "Replay is built around collecting more Lums, rescuing missed Teensies, unlocking extra content, and improving routes in time trial-style challenges.",
-          "player_goal": "Return to older levels after learning new tricks and aim for cleaner runs instead of rushing only the main path."
+          "title": "Jogue novamente por Lums, Teensies e Contra-relógios",
+          "type": "Objetivos de Rejogabilidade",
+          "details": "A rejogabilidade é construída em torno de coletar mais Lums, resgatar Teensies perdidos, desbloquear conteúdo extra e melhorar rotas em desafios estilo contra-relógio.",
+          "player_goal": "Retorne a níveis antigos após aprender novos truques e foque em corridas mais limpas em vez de apenas correr pelo caminho principal."
         }
       ],
       "source_urls": [
@@ -534,71 +494,71 @@
         "https://nintendoeverything.com/rayman-legends-retold-preview/"
       ],
       "cta": {
-        "label": "Open Rayman Legends Retold Walkthrough and Level Flow",
+        "label": "Abrir o Detonado e Fluxo de Níveis de Rayman Legends Retold",
         "href": "/walkthrough-and-levels"
       }
     },
     "characters-and-story": {
       "id": "characters-and-story",
       "order": 6,
-      "name": "Rayman Legends Retold Characters and Story",
+      "name": "Personagens e História de Rayman Legends Retold",
       "layout": {
         "type": "card-list",
-        "desktop": "Four-column character cards with role, story function, and player-facing notes",
-        "mobile": "Stacked character cards with short role summaries"
+        "desktop": "Cartões de personagens em quatro colunas com função, papel na história e notas para o jogador",
+        "mobile": "Cartões de personagens empilhados com resumos curtos de funções"
       },
-      "eyebrow": "Characters",
-      "title": "Rayman Legends Retold Characters and Story",
-      "subtitle": "Meet the confirmed heroes, allies, rescued Teensies, and the new threat behind the retold Glade of Dreams adventure.",
-      "intro": "The remake turns Rayman Legends into a more story-driven adventure with fully voiced cinematics, new character interactions, a new villain, and expanded lore for the Glade of Dreams. The core cast follows Rayman, Globox, Barbara, Grand Minimus, and Murphy as they fight to stop corruption across the realms.",
+      "eyebrow": "Personagens",
+      "title": "Personagens e História de Rayman Legends Retold",
+      "subtitle": "Conheça os heróis confirmados, aliados, Teensies resgatados e a nova ameaça por trás da aventura recontada em Glade of Dreams.",
+      "intro": "O remake transforma Rayman Legends em uma aventura mais focada na história, com cenas totalmente dubladas, novas interações entre personagens, um novo vilão e uma lore expandida para a Glade of Dreams. O elenco principal acompanha Rayman, Globox, Barbara, Grand Minimus e Murphy enquanto lutam para deter a corrupção pelos reinos.",
       "items": [
         {
           "name": "Rayman",
-          "role": "Main Hero",
-          "story_function": "Rayman leads the journey to restore peace to the Glade of Dreams after a shadowy villain spreads corruption through the realms.",
-          "what_players_see": "Fast platforming built around leaping, gliding, punching enemies, rescuing Teensies, and exploring colorful worlds."
+          "role": "Herói Principal",
+          "story_function": "Rayman lidera a jornada para restaurar a paz na Glade of Dreams após um vilão sombrio espalhar corrupção pelos reinos.",
+          "what_players_see": "Plataforma rápida baseada em saltos, planeio, socos em inimigos, resgate de Teensies e exploração de mundos coloridos."
         },
         {
           "name": "Globox",
-          "role": "Confirmed Hero Ally",
-          "story_function": "Globox joins Rayman in the retold adventure and is part of the core friend group traveling through the Glade of Dreams.",
-          "what_players_see": "A returning fan-favorite ally featured in the campaign, co-op chaos, and preorder costume content inspired by Rayman 3: Hoodlum Havoc."
+          "role": "Herói Aliado Confirmado",
+          "story_function": "Globox se junta a Rayman na aventura recontada e faz parte do grupo principal de amigos que viaja pela Glade of Dreams.",
+          "what_players_see": "Um aliado favorito dos fãs que retorna na campanha, no caos do co-op e no conteúdo de trajes de pré-venda inspirado em Rayman 3: Hoodlum Havoc."
         },
         {
           "name": "Barbara",
-          "role": "Confirmed Hero Ally",
-          "story_function": "Barbara returns as one of Rayman's key companions in the expanded story and voiced cinematic presentation.",
-          "what_players_see": "A heroic teammate included in the main cast and Deluxe Edition Retro Pack costume lineup."
+          "role": "Herói Aliado Confirmado",
+          "story_function": "Barbara retorna como uma das principais companheiras de Rayman na história expandida e na apresentação cinematográfica dublada.",
+          "what_players_see": "Uma colega de equipe heroica incluída no elenco principal e na linha de trajes do Retro Pack da Deluxe Edition."
         },
         {
           "name": "Grand Minimus",
-          "role": "Teensie Ally",
-          "story_function": "Grand Minimus is part of the confirmed traveling group and connects the adventure to the Teensies that players rescue across levels.",
-          "what_players_see": "A story ally tied closely to Teensie rescue goals and the remake's expanded cast interactions."
+          "role": "Aliado Teensie",
+          "story_function": "Grand Minimus faz parte do grupo de viagem confirmado e conecta a aventura aos Teensies que os jogadores resgatam pelos níveis.",
+          "what_players_see": "Um aliado da história intimamente ligado aos objetivos de resgate de Teensies e às interações expandidas do elenco do remake."
         },
         {
           "name": "Murphy",
-          "role": "Companion Character",
-          "story_function": "Murphy joins the confirmed group on the journey through the Glade of Dreams and supports the retold adventure structure.",
-          "what_players_see": "A returning Rayman companion included in the story setup as the remake expands character interactions."
+          "role": "Personagem Companheiro",
+          "story_function": "Murphy se junta ao grupo confirmado na jornada pela Glade of Dreams e apoia a estrutura da aventura recontada.",
+          "what_players_see": "Um companheiro de Rayman que retorna, incluído na configuração da história conforme o remake expande as interações entre personagens."
         },
         {
           "name": "Teensies",
-          "role": "Rescue Objective",
-          "story_function": "Teensies are the friends players rescue throughout the Glade of Dreams while clearing worlds and replaying levels.",
-          "what_players_see": "Collectible rescue goals that encourage exploration, replay, and competition in co-op."
+          "role": "Objetivo de Resgate",
+          "story_function": "Teensies são os amigos que os jogadores resgatam por toda a Glade of Dreams enquanto limpam mundos e jogam níveis novamente.",
+          "what_players_see": "Objetivos de resgate colecionáveis que incentivam a exploração, o replay e a competição no co-op."
         },
         {
           "name": "Shadowy Villain",
-          "role": "New Main Threat",
-          "story_function": "A new villain spreads corruption and chaos through the Glade of Dreams, pushing Rayman and friends into a bigger retold adventure.",
-          "what_players_see": "A new foe tied to the remake's narrative twists, underworld trouble, and expanded world logic."
+          "role": "Nova Ameaça Principal",
+          "story_function": "Um novo vilão espalha corrupção e caos pela Glade of Dreams, empurrando Rayman e seus amigos para uma aventura recontada ainda maior.",
+          "what_players_see": "Um novo inimigo ligado às reviravoltas narrativas do remake, problemas no submundo e lógica de mundo expandida."
         },
         {
           "name": "Glade of Dreams",
-          "role": "Main Setting",
-          "story_function": "The Glade of Dreams is reimagined with new 3D visuals, more immersive worlds, fresh surprises, and a never-before-seen sixth realm.",
-          "what_players_see": "Colorful worlds, returning iconic levels, new realms, musical stages, dragon rides, and Cave of Trials challenges."
+          "role": "Cenário Principal",
+          "story_function": "A Glade of Dreams foi reimaginada com novos visuais 3D, mundos mais imersivos, surpresas inéditas e um sexto reino nunca antes visto.",
+          "what_players_see": "Mundos coloridos, níveis icônicos que retornam, novos reinos, fases musicais, montaria em dragões e desafios da Cave of Trials."
         }
       ],
       "source_urls": [
@@ -609,68 +569,68 @@
         "https://store.steampowered.com/app/4084710/Rayman_Legends_Retold/"
       ],
       "cta": {
-        "label": "Open Rayman Legends Retold Characters and Story",
+        "label": "Abrir Personagens e História de Rayman Legends Retold",
         "href": "/characters-and-story"
       }
     },
     "co-op-and-kung-foot": {
       "id": "co-op-and-kung-foot",
       "order": 7,
-      "name": "Rayman Legends Retold Co Op and Kung Foot",
+      "name": "Co-op e Kung Foot de Rayman Legends Retold",
       "layout": {
         "type": "accordion",
-        "desktop": "Two-column accordion with multiplayer feature groups",
-        "mobile": "Single-column accordion optimized for quick platform checks"
+        "desktop": "Acordeão de duas colunas com grupos de recursos multijogador",
+        "mobile": "Acordeão de coluna única otimizado para verificações rápidas de plataforma"
       },
-      "eyebrow": "Multiplayer",
-      "title": "Rayman Legends Retold Co-Op and Kung Foot",
-      "subtitle": "Play the full adventure in couch co-op, compete for Lums and Teensies, then switch into the upgraded Kung Foot party mode.",
-      "intro": "Rayman Legends Retold keeps the series' shared-screen chaos at the center of multiplayer. Players can team up through the adventure, race each other for collectibles, knock friends off route, and play the returning Kung Foot mode with improved controls, power-ups, and customizable rules.",
+      "eyebrow": "Multijogador",
+      "title": "Co-op e Kung Foot de Rayman Legends Retold",
+      "subtitle": "Jogue a aventura completa em co-op local, compita por Lums e Teensies e, em seguida, mude para o modo de festa Kung Foot aprimorado.",
+      "intro": "Rayman Legends Retold mantém o caos de tela compartilhada da série no centro do multijogador. Os jogadores podem se unir na aventura, correr uns contra os outros por colecionáveis, tirar os amigos da rota e jogar o modo Kung Foot que retorna com controles aprimorados, power-ups e regras personalizáveis.",
       "items": [
         {
-          "title": "Adventure Couch Co-Op",
-          "summary": "The full adventure supports solo play or up to four-player couch co-op.",
+          "title": "Co-op Local de Aventura",
+          "summary": "A aventura completa suporta jogo solo ou co-op local para até quatro jogadores.",
           "content": [
-            "Play through the campaign together on the same screen.",
-            "Jump, glide, punch, and survive the same level routes as a group.",
-            "Co-op is designed for fast platforming with shared chaos rather than separate isolated paths."
+            "Jogue a campanha juntos na mesma tela.",
+            "Salte, planeie, dê socos e sobreviva às mesmas rotas de nível em grupo.",
+            "O co-op foi projetado para plataforma rápida com caos compartilhado, em vez de caminhos isolados e separados."
           ]
         },
         {
-          "title": "Co-Op Goals",
-          "summary": "Players can help each other or compete while clearing stages.",
+          "title": "Objetivos do Co-op",
+          "summary": "Os jogadores podem se ajudar ou competir enquanto completam as fases.",
           "content": [
-            "Rescue friends and Teensies across levels.",
-            "Race other players for Lums.",
-            "Knock friends off their path to grab collectibles first.",
-            "Replay levels to clean up missed Teensies and improve group routes."
+            "Resgate amigos e Teensies pelos níveis.",
+            "Corra contra outros jogadores por Lums.",
+            "Tire os amigos do caminho para pegar os colecionáveis primeiro.",
+            "Jogue os níveis novamente para resgatar Teensies perdidos e melhorar as rotas do grupo."
           ]
         },
         {
-          "title": "Kung Foot Returns",
-          "summary": "Kung Foot is back as a competitive party mode.",
+          "title": "O Retorno de Kung Foot",
+          "summary": "Kung Foot está de volta como um modo de festa competitivo.",
           "content": [
-            "Improved controls make the mode easier to read and faster to play.",
-            "Power-ups add more match variety.",
-            "Customizable rules let players tune the match flow for casual or competitive sessions."
+            "Controles aprimorados tornam o modo mais fácil de entender e mais rápido de jogar.",
+            "Power-ups adicionam mais variedade às partidas.",
+            "Regras personalizáveis permitem que os jogadores ajustem o fluxo da partida para sessões casuais ou competitivas."
           ]
         },
         {
-          "title": "PC Multiplayer Features",
-          "summary": "Steam and Epic list local and multiplayer support for the PC release.",
+          "title": "Recursos de Multiplayer para PC",
+          "summary": "Steam e Epic listam suporte para multiplayer local e online para o lançamento no PC.",
           "content": [
-            "Steam lists Single-player, Shared/Split Screen Co-op, Shared/Split Screen PvP, Shared/Split Screen, Remote Play Together, and Cross-Platform Multiplayer.",
-            "Epic Games Store lists Single Player, Local Multiplayer, Multiplayer, and Cross Platform features.",
-            "Steam requires a Ubisoft account and supports linking to a Steam account."
+            "Steam lista Single-player, Co-op em Tela Compartilhada/Dividida, PvP em Tela Compartilhada/Dividida, Tela Compartilhada/Dividida, Remote Play Together e Multiplayer Multiplataforma.",
+            "Epic Games Store lista Single Player, Multiplayer Local, Multiplayer e recursos Multiplataforma.",
+            "Steam requer uma conta Ubisoft e suporta vinculação a uma conta Steam."
           ]
         },
         {
-          "title": "Xbox Multiplayer Notes",
-          "summary": "The Xbox listing confirms local multiplayer for Xbox Series X|S.",
+          "title": "Notas de Multiplayer para Xbox",
+          "summary": "A listagem do Xbox confirma multiplayer local para Xbox Series X|S.",
           "content": [
-            "Xbox lists local multiplayer for 2-4 players.",
-            "The Xbox listing states that internet connection, a Ubisoft account, and a Microsoft account are required to access online features.",
-            "Xbox editions include the base game together with Rayman Origins: Enhanced Edition."
+            "Xbox lista multiplayer local para 2-4 jogadores.",
+            "A listagem do Xbox afirma que conexão com a internet, uma conta Ubisoft e uma conta Microsoft são necessárias para acessar os recursos online.",
+            "As edições de Xbox incluem o jogo base junto com Rayman Origins: Enhanced Edition."
           ]
         }
       ],
@@ -682,63 +642,63 @@
         "https://store.epicgames.com/p/rayman-legends-retold"
       ],
       "cta": {
-        "label": "Open Rayman Legends Retold Co-Op and Kung Foot",
+        "label": "Abrir Co-Op e Kung Foot de Rayman Legends Retold",
         "href": "/co-op-and-kung-foot"
       }
     },
     "pc-requirements-and-languages": {
       "id": "pc-requirements-and-languages",
       "order": 8,
-      "name": "Rayman Legends Retold PC Requirements and Languages",
+      "name": "Requisitos de PC e Idiomas de Rayman Legends Retold",
       "layout": {
         "type": "table",
-        "desktop": "Full-width comparison table with requirement, account, DRM, and language rows",
-        "mobile": "Stacked spec rows with label and value blocks"
+        "desktop": "Tabela de comparação de largura total com linhas de requisitos, conta, DRM e idioma",
+        "mobile": "Linhas de especificações empilhadas com blocos de rótulo e valor"
       },
-      "eyebrow": "PC Specs",
-      "title": "Rayman Legends Retold PC Requirements and Languages",
-      "subtitle": "Check PC specs, supported languages, account requirements, and store-specific notes before playing on Steam or Epic Games Store.",
-      "intro": "Rayman Legends Retold launches on PC through Ubisoft Store, Steam, and Epic Games Store. The PC listings cover Windows requirements, supported languages, account requirements, and Steam DRM details for players who want to prepare their setup early.",
+      "eyebrow": "Especificações para PC",
+      "title": "Requisitos de PC e Idiomas de Rayman Legends Retold",
+      "subtitle": "Verifique as especificações para PC, idiomas suportados, requisitos de conta e notas específicas da loja antes de jogar no Steam ou Epic Games Store.",
+      "intro": "Rayman Legends Retold será lançado para PC através da Ubisoft Connect, Steam e Epic Games Store. As listagens para PC cobrem os requisitos de Windows, idiomas suportados, requisitos de conta e detalhes de DRM do Steam para jogadores que desejam preparar sua configuração com antecedência.",
       "items": [
         {
-          "label": "Minimum PC Specs",
+          "label": "Especificações Mínimas para PC",
           "store": "Steam",
-          "value": "Windows 10 64-bit, Intel Core i3-7100 3.9 GHz or AMD Ryzen 3 1200 3.1 GHz, 8 GB RAM, NVIDIA GeForce GTX 1650 4GB or AMD Radeon RX 5500 XT 4GB, DirectX 9.0, 10 GB available storage, 8 GB dual-channel RAM setup."
+          "value": "Windows 10 64-bit, Intel Core i3-7100 3.9 GHz ou AMD Ryzen 3 1200 3.1 GHz, 8 GB RAM, NVIDIA GeForce GTX 1650 4GB ou AMD Radeon RX 5500 XT 4GB, DirectX 9.0, 10 GB de armazenamento disponível, configuração de 8 GB de RAM dual-channel."
         },
         {
-          "label": "Minimum PC Specs",
+          "label": "Especificações Mínimas para PC",
           "store": "Epic Games Store",
-          "value": "Windows 10 64-bit or Windows 11, Intel i3-8100 or Ryzen 3 3100, 16 GB memory, Nvidia GTX 1650 4GB or AMD RX 5500 XT 4GB or Intel Arc A580 8GB, DirectX 12."
+          "value": "Windows 10 64-bit ou Windows 11, Intel i3-8100 ou Ryzen 3 3100, 16 GB de memória, Nvidia GTX 1650 4GB ou AMD RX 5500 XT 4GB ou Intel Arc A580 8GB, DirectX 12."
         },
         {
-          "label": "Recommended PC Specs",
+          "label": "Especificações Recomendadas para PC",
           "store": "Epic Games Store",
-          "value": "Windows 10 64-bit or Windows 11, Intel i5-8400 6c6t or Ryzen 5 3600X, 16 GB memory, Nvidia RTX 2060 6GB or AMD RX 5600 XT 6GB or Intel Arc A750 8GB, DirectX 12."
+          "value": "Windows 10 64-bit ou Windows 11, Intel i5-8400 6c6t ou Ryzen 5 3600X, 16 GB de memória, Nvidia RTX 2060 6GB ou AMD RX 5600 XT 6GB ou Intel Arc A750 8GB, DirectX 12."
         },
         {
-          "label": "Steam Account and DRM",
+          "label": "Conta Steam e DRM",
           "store": "Steam",
-          "value": "Ubisoft account required with Steam account linking support. Steam lists Denuvo Anti-Tamper and a 5-per-day machine activation limit."
+          "value": "Conta Ubisoft necessária com suporte para vinculação de conta Steam. Steam lista Denuvo Anti-Tamper e um limite de ativação de 5 máquinas por dia."
         },
         {
-          "label": "Epic Login Requirement",
+          "label": "Requisito de Login Epic",
           "store": "Epic Games Store",
-          "value": "Epic Games login account required."
+          "value": "Conta de login da Epic Games necessária."
         },
         {
-          "label": "Full Audio Languages",
-          "store": "Steam and Epic Games Store",
-          "value": "English, French, Italian, German, Spanish, Portuguese - Brazil, Japanese, Simplified Chinese."
+          "label": "Idiomas de Áudio Completos",
+          "store": "Steam e Epic Games Store",
+          "value": "Inglês, Francês, Italiano, Alemão, Espanhol, Português - Brasil, Japonês, Chinês Simplificado."
         },
         {
-          "label": "Interface and Subtitle Languages",
-          "store": "Steam and Epic Games Store",
-          "value": "English, French, Italian, German, Spanish, Dutch, Japanese, Polish, Portuguese - Brazil, Russian, Simplified Chinese, Traditional Chinese."
+          "label": "Idiomas de Interface e Legendas",
+          "store": "Steam e Epic Games Store",
+          "value": "Inglês, Francês, Italiano, Alemão, Espanhol, Holandês, Japonês, Polonês, Português - Brasil, Russo, Chinês Simplificado, Chinês Tradicional."
         },
         {
-          "label": "PC Store Availability",
+          "label": "Disponibilidade em Lojas de PC",
           "store": "Ubisoft, Steam, Epic Games Store",
-          "value": "PC release is available through Ubisoft Store, Steam, and Epic Games Store, with Rayman Origins: Enhanced Edition included in the base package."
+          "value": "O lançamento para PC está disponível através da Ubisoft Store, Steam e Epic Games Store, com Rayman Origins: Enhanced Edition incluído no pacote base."
         }
       ],
       "source_urls": [
@@ -747,87 +707,205 @@
         "https://news.ubisoft.com/en-us/article/2WxMvhIp4tEdeBz8HELI15/rayman-legends-retold-launching-october-1"
       ],
       "cta": {
-        "label": "Open Rayman Legends Retold PC Requirements and Languages",
+        "label": "Abrir Requisitos de PC e Idiomas de Rayman Legends Retold",
         "href": "/pc-requirements-and-languages"
       }
     }
   },
-  "tools": {
-    "title": "Rayman Legends Retold",
-    "titleHighlight": "Modules",
-    "subtitle": "Jump into the main release, platform, and gameplay topics from the homepage.",
-    "cards": [
+  "faq": {
+    "title": "Perguntas",
+    "titleHighlight": "Frequentes",
+    "subtitle": "Respostas importantes sobre lançamento, plataforma e co-op para Rayman Legends Retold.",
+    "questions": [
       {
-        "icon": "Calendar",
-        "title": "Release Info",
-        "description": "Rayman Legends Retold launches on October 1, 2026. It is confirmed for PS5, Xbox Series X|S, Nintendo Switch 2, PC, GeForce NOW, and Blacknut."
+        "question": "Quando Rayman Legends Retold será lançado?",
+        "answer": "Rayman Legends Retold está programado para ser lançado em 1 de outubro de 2026."
       },
       {
-        "icon": "Package",
-        "title": "Editions",
-        "description": "Rayman Legends Retold has Standard, Deluxe, Launch Edition, and Deluxe Upgrade options. Any pre-order includes the Hoodlum Havoc Pack."
+        "question": "Quais plataformas estão confirmadas?",
+        "answer": "A Ubisoft confirmou PS5, Xbox Series X|S, Nintendo Switch 2, lojas de PC como Steam e Epic Games Store, além de GeForce NOW e Blacknut."
       },
       {
-        "icon": "Sparkles",
-        "title": "Gameplay",
-        "description": "Rayman Legends Retold is a bold 3D reimagining of the 2013 platformer, not just a simple port. It adds new story content, new stages, voiced cinematics, dragon rides, and updated co-op features."
+        "question": "Rayman Legends Retold suporta co-op?",
+        "answer": "Sim. A aventura completa suporta co-op local para até quatro jogadores, e Kung Foot retorna como um modo de festa separado."
       },
       {
-        "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "Start with the basics: move cleanly, collect Lums, rescue Teensies, replay stages, and use co-op without losing focus. The game is built for solo players and up to 4-player couch co-op."
+        "question": "Quais edições estão disponíveis?",
+        "answer": "A linha anunciada inclui a Edição Standard, Edição Deluxe, Edição de Lançamento e uma opção de Upgrade Deluxe, com o Hoodlum Havoc Pack vinculado às pré-vendas."
       },
       {
-        "icon": "Map",
-        "title": "Walkthrough",
-        "description": "Follow the revealed adventure structure: the reimagined Glade of Dreams, returning levels, the sixth realm, musical stages, dragon rides, and Cave of Trials challenges."
+        "question": "Isso é um remake ou um remaster?",
+        "answer": "A Ubisoft está apresentando Rayman Legends Retold como uma releitura mais ampla com visuais 3D, novo conteúdo de história, um sexto mundo e novos tipos de fases, em vez de um simples remaster."
       },
       {
-        "icon": "Users",
-        "title": "Characters",
-        "description": "Meet the confirmed heroes, allies, rescued Teensies, and the new threat behind the retold Glade of Dreams adventure."
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Multiplayer",
-        "description": "Play the full adventure in couch co-op, compete for Lums and Teensies, then switch into the upgraded Kung Foot party mode."
-      },
-      {
-        "icon": "Monitor",
-        "title": "PC Specs",
-        "description": "Check PC specs, supported languages, account requirements, and store-specific notes before playing on Steam or Epic Games Store."
+        "question": "O que a versão de PC exige?",
+        "answer": "As listagens atuais das lojas de PC apontam para Windows 10 ou 11, uma CPU e GPU intermediárias modernas, 16 GB de memória e a exigência de uma conta Ubisoft nas lojas de PC suportadas."
       }
     ]
   },
-  "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Key release, platform, and co-op answers for Rayman Legends Retold.",
-    "questions": [
-      {
-        "question": "When does Rayman Legends Retold release?",
-        "answer": "Rayman Legends Retold is scheduled to launch on October 1, 2026."
+  "cta": {
+    "title": "Acompanhe Rayman Legends Retold antes do lançamento",
+    "description": "Siga os canais oficiais de Rayman para trailers, atualizações de pré-venda e notícias de plataforma antes do lançamento de Rayman Legends Retold em 1 de outubro de 2026.",
+    "joinCommunity": "Junte-se a Rayman no Discord",
+    "joinGame": "Reserve Rayman Legends Retold no Steam"
+  },
+  "footer": {
+    "title": "Wiki de Rayman Legends Retold",
+    "description": "Seu hub feito por fãs para acompanhamento do lançamento de Rayman Legends Retold, edições, detalhes de co-op, trailers e guias de plataformas.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Informações Legais",
+    "discord": "Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Comunidade no Reddit",
+    "steamStore": "Loja Steam",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Direitos Autorais",
+    "copyright": "© 2026 Rayman Legends Retold Wiki. Não oficial e não afiliado à Ubisoft.",
+    "disclaimer": "Site de referência feito por fãs cobrindo informações oficiais de Rayman Legends Retold e recursos da comunidade."
+  },
+  "pages": {
+    "release": {
+      "title": "Lançamento de Rayman Legends Retold",
+      "description": "A cobertura mais recente da data de lançamento de Rayman Legends Retold, cronograma de lançamento, notícias oficiais e atualizações de revelação em um só lugar.",
+      "metaTitle": "Lançamento de Rayman Legends Retold - Data de Lançamento, Notícias e Atualizações de Revelação",
+      "metaDescription": "Acompanhe detalhes da data de lançamento de Rayman Legends Retold, cronograma de lançamento, notícias oficiais e atualizações do State of Play com guias de lançamento de referência rápida.",
+      "categoryLabel": "INFO DE LANÇAMENTO",
+      "whatIs": "O que é Lançamento?",
+      "whatIsDescription": "Esta categoria reúne o cronograma oficial de lançamento de Rayman Legends Retold, incluindo confirmações de data de lançamento, cobertura de revelação e as atualizações mais importantes da janela de lançamento.",
+      "why": "Por que ler a cobertura de lançamento?",
+      "whySteps": {
+        "step1Title": "Acompanhe o cronograma de lançamento",
+        "step1Description": "Veja a data de lançamento atual, a janela de lançamento e quaisquer mudanças de cronograma sem precisar verificar cada página da loja sozinho.",
+        "step2Title": "Fique por dentro das notícias oficiais",
+        "step2Description": "Siga resumos de anúncios, cobertura do State of Play e atualizações da Ubisoft que afetam as expectativas de lançamento.",
+        "step3Title": "Planeje sua compra",
+        "step3Description": "Use a linha do tempo de lançamento para alinhar pré-vendas, escolha de plataforma e planos de co-op antes do dia do lançamento."
       },
-      {
-        "question": "Which platforms are confirmed?",
-        "answer": "Ubisoft has confirmed PS5, Xbox Series X|S, Nintendo Switch 2, PC storefronts such as Steam and Epic Games Store, plus GeForce NOW and Blacknut."
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos de Lançamento"
+    },
+    "platforms": {
+      "title": "Plataformas de Rayman Legends Retold",
+      "description": "Compare a cobertura de plataformas de Rayman Legends Retold no PlayStation 5, Xbox Series X|S, Nintendo Switch 2, Steam, Epic Games Store, Ubisoft Connect e serviços de nuvem.",
+      "metaTitle": "Plataformas de Rayman Legends Retold - PlayStation 5, Xbox, Nintendo Switch 2 e PC",
+      "metaDescription": "Confira todas as plataformas confirmadas de Rayman Legends Retold, listagens de lojas, opções de PC e lançamentos em nuvem em um único hub de plataformas.",
+      "categoryLabel": "PLATAFORMAS",
+      "whatIs": "O que são Plataformas?",
+      "whatIsDescription": "Esta categoria acompanha onde Rayman Legends Retold pode ser jogado, quais lojas o listam atualmente e o que cada página de plataforma confirma sobre edições, recursos e acesso.",
+      "why": "Por que conferir os guias de plataforma?",
+      "whySteps": {
+        "step1Title": "Confirme seu sistema",
+        "step1Description": "Veja se PlayStation 5, Xbox Series X|S, Nintendo Switch 2, Steam, Epic Games Store ou Ubisoft Connect é a melhor opção para o seu setup.",
+        "step2Title": "Compare detalhes das lojas",
+        "step2Description": "Diferentes lojas apresentam notas distintas sobre preços, co-op, vinculação de conta e disponibilidade.",
+        "step3Title": "Evite confusão de plataformas",
+        "step3Description": "Use uma referência clara em vez de cruzar informações de várias páginas de varejistas com dados sobrepostos."
       },
-      {
-        "question": "Does Rayman Legends Retold support co-op?",
-        "answer": "Yes. The full adventure supports local couch co-op for up to four players, and Kung Foot returns as a separate party mode."
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos de Plataformas"
+    },
+    "preorder": {
+      "title": "Pré-venda de Rayman Legends Retold",
+      "description": "Encontre o status da pré-venda, notas sobre preços, detalhes de cópias físicas e orientações de compra no lançamento para Rayman Legends Retold.",
+      "metaTitle": "Pré-venda de Rayman Legends Retold - Preço, Cópia Física e Opções de Compra",
+      "metaDescription": "Acompanhe o status da pré-venda de Rayman Legends Retold, preços, disponibilidade de edições físicas e as melhores formas de comprar antes do lançamento.",
+      "categoryLabel": "PRÉ-VENDA",
+      "whatIs": "O que é Pré-venda?",
+      "whatIsDescription": "Esta categoria foca na compra de Rayman Legends Retold antes do lançamento, cobrindo a disponibilidade da pré-venda, notas sobre varejo físico e questões de compra focadas em preço.",
+      "why": "Por que acompanhar a cobertura de pré-venda?",
+      "whySteps": {
+        "step1Title": "Verifique o acesso à pré-venda",
+        "step1Description": "Saiba quais lojas estão com a pré-venda aberta, quais versões são apenas digitais e onde cópias físicas são esperadas.",
+        "step2Title": "Compare preços antecipadamente",
+        "step2Description": "Use a cobertura de preços para decidir se deve comprar imediatamente, esperar por uma loja de preferência ou buscar uma cópia física no lançamento.",
+        "step3Title": "Entenda o prazo dos bônus",
+        "step3Description": "Artigos de pré-venda ajudam a separar o conteúdo permanente da edição de ofertas exclusivas de lançamento ou de pré-venda."
       },
-      {
-        "question": "What editions are available?",
-        "answer": "The announced lineup includes Standard Edition, Deluxe Edition, Launch Edition, and a Deluxe Upgrade option, with the Hoodlum Havoc Pack tied to pre-orders."
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos de Pré-venda"
+    },
+    "editions": {
+      "title": "Edições de Rayman Legends Retold",
+      "description": "Analise o conteúdo da edição Standard, Deluxe, upgrades e bônus para que você possa escolher a edição correta de Rayman Legends Retold.",
+      "metaTitle": "Edições de Rayman Legends Retold - Detalhes de Deluxe, Bônus e Upgrade",
+      "metaDescription": "Compare as edições de Rayman Legends Retold, conteúdo Deluxe, bônus de pré-venda, expectativas de DLC e caminhos de upgrade.",
+      "categoryLabel": "EDIÇÕES",
+      "whatIs": "O que são Edições?",
+      "whatIsDescription": "Esta categoria explica como as edições de Rayman Legends Retold diferem, o que cada pacote inclui e quais bônus estão vinculados a ofertas Deluxe, de lançamento ou de pré-venda.",
+      "why": "Por que comparar edições?",
+      "whySteps": {
+        "step1Title": "Escolha o pacote certo",
+        "step1Description": "Veja qual edição inclui os extras que lhe interessam sem pagar a mais por itens que você ignorará.",
+        "step2Title": "Entenda o conteúdo bônus",
+        "step2Description": "Separe claramente o conteúdo do jogo base, pacotes de trajes, extras de arte e quaisquer complementos exclusivos de upgrade.",
+        "step3Title": "Planeje futuros upgrades",
+        "step3Description": "Os guias de edição facilitam a decisão entre comprar a Standard agora e fazer o upgrade depois, ou comprar a Deluxe imediatamente."
       },
-      {
-        "question": "Is this a remake or a remaster?",
-        "answer": "Ubisoft is presenting Rayman Legends Retold as a broader reimagining with 3D visuals, new story content, a sixth realm, and new stage types rather than a simple remaster."
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos de Edições"
+    },
+    "comparison": {
+      "title": "Comparação de Rayman Legends Retold",
+      "description": "Compare Rayman Legends Retold com o original de 2013, expectativas de remasterização, raízes em 2.5D e as mudanças no estilo de remake mostradas até agora.",
+      "metaTitle": "Comparação de Rayman Legends Retold - Original vs Remake Explicado",
+      "metaDescription": "Veja como Rayman Legends Retold se compara ao Rayman Legends original através de comparações de remake, remasterização, gráficos e jogabilidade.",
+      "categoryLabel": "COMPARAÇÃO",
+      "whatIs": "O que é Comparação?",
+      "whatIsDescription": "Esta categoria foca em como Rayman Legends Retold difere do jogo original, especialmente sua reformulação visual, novo conteúdo e a questão de remake versus remasterização.",
+      "why": "Por que ler comparações?",
+      "whySteps": {
+        "step1Title": "Entenda o que mudou",
+        "step1Description": "Os artigos de comparação mostram se Retold é uma simples atualização visual ou uma releitura mais profunda do lançamento original.",
+        "step2Title": "Defina expectativas",
+        "step2Description": "Fãs que estão retornando podem julgar rapidamente o escopo de novos elementos da história, visuais 3D e tipos de fases adicionados.",
+        "step3Title": "Identifique as principais melhorias",
+        "step3Description": "Comparações de gráficos, apresentação e estrutura destacam as maiores diferenças que valem a pena acompanhar antes do lançamento."
       },
-      {
-        "question": "What does the PC version require?",
-        "answer": "Current PC store listings point to Windows 10 or 11, a modern mid-range CPU and GPU, 16 GB of memory, and a Ubisoft account requirement on supported PC storefronts."
-      }
-    ]
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos de Comparação"
+    },
+    "guide": {
+      "title": "Guia de Rayman Legends Retold",
+      "description": "Use a cobertura do guia de Rayman Legends Retold para dicas de iniciantes, contexto dos desenvolvedores e explicações gerais antes do lançamento.",
+      "metaTitle": "Guia de Rayman Legends Retold - Dicas para Iniciantes e Informações Chave",
+      "metaDescription": "Leia guias para iniciantes de Rayman Legends Retold, dicas e truques, explicações e centros de conhecimento iniciais em uma única categoria de guia.",
+      "categoryLabel": "GUIA",
+      "whatIs": "O que é Guia?",
+      "whatIsDescription": "Esta categoria agrupa explicações gerais de Rayman Legends Retold, dicas para iniciantes e guias de alto nível que ajudam novos jogadores a entender o jogo antes de mergulhar em fases específicas ou detalhes de plataforma.",
+      "why": "Por que usar artigos de guia?",
+      "whySteps": {
+        "step1Title": "Aprenda o básico rapidamente",
+        "step1Description": "Comece com movimentação, modo cooperativo, colecionáveis e a estrutura geral do jogo antes de buscar detalhes específicos.",
+        "step2Title": "Obtenha contexto pronto para o lançamento",
+        "step2Description": "A cobertura do guia reúne os detalhes confirmados mais importantes em um formato mais rápido de ler do que as páginas da loja.",
+        "step3Title": "Crie um plano inicial claro",
+        "step3Description": "Guias para iniciantes e visões gerais ajudam você a decidir o que jogar primeiro, o que repetir e quais recursos são mais importantes."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos de Guia"
+    },
+    "walkthrough": {
+      "title": "Detonado de Rayman Legends Retold",
+      "description": "Siga a cobertura do detonado de Rayman Legends Retold para o fluxo das fases, planejamento de rotas e orientação específica de estágios como Castle Rock.",
+      "metaTitle": "Detonado de Rayman Legends Retold - Fluxo de Fases e Ajuda de Estágios",
+      "metaDescription": "Navegue pelos guias de detonado de Rayman Legends Retold cobrindo o fluxo da campanha, fases musicais, rotas de fases e ajuda em estágios em destaque.",
+      "categoryLabel": "DETONADO",
+      "whatIs": "O que é Detonado?",
+      "whatIsDescription": "Esta categoria foca no fluxo de progressão e orientação fase a fase, desde rotas amplas de campanha até ajuda específica para seções de destaque como Castle Rock.",
+      "why": "Por que ler detonados?",
+      "whySteps": {
+        "step1Title": "Siga o fluxo das fases",
+        "step1Description": "Use a cobertura do detonado para entender a ordem dos principais desafios, objetivos de repetição e onde o novo conteúdo se encaixa.",
+        "step2Title": "Prepare-se para fases difíceis",
+        "step2Description": "A ajuda focada em estágios é útil para fases musicais, conteúdo de desafio e colecionáveis que são fáceis de perder na primeira vez.",
+        "step3Title": "Melhore as rotas de repetição",
+        "step3Description": "Os detonados facilitam revisitar fases para melhores rotas de Lums, Teensies escondidos e uma conclusão mais completa."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos de Detonado"
+    }
   }
 }
