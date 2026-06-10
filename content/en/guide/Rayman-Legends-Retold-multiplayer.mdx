@@ -1,0 +1,150 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Users, PcCase } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Rayman Legends Retold Multiplayer: Co-op & Kung Foot Guide",
+  description: "Master Rayman Legends Retold multiplayer with our guide on 4-player local co-op, Kung Foot tactics, and platform-specific gaming setups.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7b2ff7/fff?text=Multiplayer+Guide",
+  date: "2026-06-10",
+  author: "Rayman Legends Retold Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Rayman Legends Retold multiplayer** supports up to **4-player local couch co-op** across all major platforms.
+- The game features the **return of Kung Foot**, an enhanced competitive party mode with customizable rules.
+- **Co-op gameplay** focuses on shared-screen chaos, racing for Lums, and strategic Teensie rescues.
+- PC players can leverage **Steam Remote Play Together** for online-like multiplayer experiences with friends.
+- **Kung Foot mode** now includes improved controls and new power-ups for faster, more intense matches.
+</Callout>
+
+<Section icon={Users} title="Understanding Multiplayer Modes">
+
+Rayman Legends Retold brings back the iconic platforming chaos that fans love, refined for a modern 3D experience. Whether you are playing with family or friends, the multiplayer suite is designed for seamless, high-energy sessions.
+
+**Video Highlights:**
+- Detailed look at the new 3D movement in co-op.
+- Demonstration of the improved Kung Foot party mechanics.
+- Overview of how camera transitions affect 4-player local sessions.
+
+<YouTubeEmbed videoId="2_7BQ9hLGkk" title="Rayman Legends Retold Reveal Trailer" />
+
+The multiplayer experience is split into two primary categories: the main Campaign Adventure and the competitive Kung Foot party mode.
+
+| Mode | Player Count | Objective | Best For |
+| :--- | :--- | :--- | :--- |
+| **Campaign Co-op** | 1-4 Players | Collect Lums & Save Teensies | Team-based exploration |
+| **Kung Foot** | 2-4 Players | Score goals in the net | Competitive party play |
+| **Cave of Trials** | 1-4 Players | Beat time records | Skill practice |
+
+<Callout type="tip">
+In campaign co-op, avoid rushing ahead. The camera is shared; if one player falls behind or gets stuck, the entire group loses momentum.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mastering Kung Foot Tactics">
+
+Kung Foot has returned with significant upgrades. The mode is no longer just a side activity; it has been tuned for competitive balance with new power-ups and refined physics.
+
+<CardGrid cols={3}>
+  <Card title="Enhanced Controls">
+    - Tighter response times
+    - More intuitive jump-kicking
+    - Better handling of mid-air strikes
+  </Card>
+  <Card title="New Power-ups">
+    - Temporary speed boosts
+    - Shield barriers for defense
+    - Multi-ball modifiers
+  </Card>
+  <Card title="Custom Rules">
+    - Adjust match duration
+    - Set score-to-win limits
+    - Toggle hazard frequency
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Strategy Tip">
+Use the environment to your advantage. In certain arenas, bouncing the ball off walls can bypass defensive players who are camping near their own goal.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Co-op Progression Steps">
+
+Coordinating a 4-player group requires more than just button mashing. Follow these steps to ensure your group progresses efficiently through the Glade of Dreams.
+
+<Steps>
+  <Step num="1" title="Assign Roles">
+    Designate one player to lead the path while others focus on gathering Lums and clearing enemies to prevent accidental deaths.
+  </Step>
+  <Step num="2" title="Sync Movement">
+    On rhythm-based musical stages, movement must be synced with the beat. Communication is vital to ensure everyone jumps simultaneously.
+  </Step>
+  <Step num="3" title="Prioritize Teensies">
+    When a Teensie is spotted, stop the forward momentum. Use one player to distract enemies while the others rescue the Teensie.
+  </Step>
+  <Step num="4" title="Utilize Replay Mode">
+    If your group misses collectibles, use the level hub to replay specific sections without needing to restart the entire world.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Important Note">
+Always ensure your controllers are mapped correctly before starting a 4-player session on PC to avoid input conflicts.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Platform Multiplayer Setup">
+
+Each platform handles Rayman Legends Retold multiplayer slightly differently. Use this table to understand your specific requirements.
+
+| Platform | Local Co-op | Online Features | Account Requirement |
+| :--- | :--- | :--- | :--- |
+| **PS5** | Yes (4-player) | Via Share Play | Ubisoft Account |
+| **Xbox Series X/S** | Yes (4-player) | Cloud local sync | Ubisoft/Microsoft |
+| **PC (Steam)** | Yes (4-player) | Remote Play Together | Ubisoft Connect |
+| **Switch 2** | Yes (4-player) | Local wireless | Ubisoft Account |
+
+<Checklist
+  id="multiplayer-prep"
+  title="Multiplayer Checklist:"
+  items={[
+    "Verify all 4 controllers are connected",
+    "Link Ubisoft account to your platform profile",
+    "Check for local firmware updates on controllers",
+    "Set up player profiles for stat tracking"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Does Rayman Legends Retold have native online co-op?",
+    answer: "The game focuses on local couch co-op. However, PC players can use Steam Remote Play Together to invite friends online, and console players can utilize platform-specific features like PlayStation Share Play."
+  },
+  {
+    question: "Can I play Kung Foot against AI bots?",
+    answer: "Yes, you can fill empty player slots with AI opponents, and you can adjust the AI difficulty settings in the custom match menu."
+  },
+  {
+    question: "Is there cross-platform multiplayer support?",
+    answer: "The game supports cross-platform progression and cloud saves, but local multiplayer is strictly confined to the specific hardware you are playing on."
+  },
+  {
+    question: "How do I unlock new costumes for multiplayer?",
+    answer: "Costumes are unlocked by collecting Lums and rescuing Teensies throughout the campaign and by participating in Cave of Trials challenges."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,143 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Rayman Legends Retold Teensies: Collector’s Guide & Locations",
+  description: "Master the art of saving every Teensie in Rayman Legends Retold. Discover location tips, completion strategies, and level walkthroughs for the 2026 reimagining.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/7B2FF7/fff?text=Rayman+Legends+Retold+Teensies",
+  date: "2026-06-10",
+  author: "Rayman Legends Retold Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Rayman Legends Retold teensies** are the primary collectible used to unlock new realms and challenges.
+- **Hidden paths** often contain secret cages; always check behind foreground obstacles and suspicious walls.
+- **Rescue goals** are essential for reaching the mysterious sixth realm and completing the game 100%.
+- **Co-op coordination** helps clear stages faster, allowing teammates to focus on different rescue routes.
+- **Replay levels** once you have mastered movement to grab any missed collectibles from your first run.
+</Callout>
+
+<Section icon={Map} title="Understanding Teensie Collection">
+
+In Rayman Legends Retold, rescuing Teensies is the core progression mechanic that drives your journey through the Glade of Dreams. Each level is packed with hidden cages, and knowing where to look is the key to mastery.
+
+**Video Highlights:**
+- Detailed breakdown of level layouts and secret areas.
+- Demonstrations of advanced movement techniques to reach high-up cages.
+- Tips for timing your jumps and glides to secure elusive Teensies.
+
+<YouTubeEmbed videoId="2_7BQ9hLGkk" title="Rayman Legends Retold Reveal Trailer" />
+
+| Category | Description | Importance |
+| :--- | :--- | :--- |
+| **Main Path** | Teensies found in plain sight during normal gameplay | Essential |
+| **Hidden Rooms** | Teensies tucked away in side paths or secret areas | High |
+| **Timed Challenges** | Teensies awarded for completing speed-based sequences | High |
+| **Locked Cages** | Teensies requiring specific combat or puzzle solutions | Critical |
+
+<Callout type="tip" title="Pro Tip">
+Always listen for the distinct humming sound that Teensies make when trapped in nearby cages. Turning up your game audio can help you pinpoint their locations before you even see them on screen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mastering Rescue Techniques">
+
+Saving Teensies is not just about exploration; it requires a combination of precise platforming and environmental awareness. Use this step-by-step approach to ensure you don't leave any friends behind.
+
+<Steps>
+  <Step num="1" title="Scan the Environment">
+    Before rushing forward, look for suspicious textures or gaps in the walls. Many Teensies are hidden in plain sight behind foreground elements.
+  </Step>
+  <Step num="2" title="Clear All Enemies">
+    Some cages are guarded by Hoodlums. Clear the area thoroughly, as enemies often drop items or activate switches that reveal secret paths.
+  </Step>
+  <Step num="3" title="Master Movement Flow">
+    Practice your wall jumps and glides. Many hidden areas require you to chain multiple moves together to reach high platforms or distant alcoves.
+  </Step>
+  <Step num="4" title="Revisit with New Skills">
+    If a cage seems unreachable, proceed with the level. You may unlock new abilities or paths later that allow you to backtrack and rescue them.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Completion Warning">
+Missing too many Teensies in the early stages can lock you out of the mysterious sixth realm. Ensure you hit your minimum rescue quotas before progressing to boss encounters.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Level Completion Milestones">
+
+Tracking your progress is vital for 100% completion. Use this checklist to keep your rescue mission on track throughout the campaign.
+
+<Checklist
+  id="teensie-milestones"
+  title="Rescue Goals:"
+  items={[
+    "Rescue 10 Teensies in the Forest Realm",
+    "Clear all hidden cages in the Musical Stages",
+    "Complete the Cave of Trials rescue challenge",
+    "Unlock the secret route in the sixth realm",
+    "Achieve 100% rescue status for all base levels"
+  ]}
+/>
+
+| Milestone | Reward | Difficulty |
+| :--- | :--- | :--- |
+| **Early Game** | Access to new worlds | Easy |
+| **Mid Game** | Retro Pack costumes | Moderate |
+| **End Game** | Art Gallery unlocks | Hard |
+| **Completionist** | Ultimate secret stage | Extreme |
+
+</Section>
+
+<Section icon={Shield} title="Platform-Specific Considerations">
+
+Whether you are playing on PS5, Xbox Series X|S, or PC, the mechanics for rescuing Teensies remain consistent. However, your controller setup can significantly impact your precision.
+
+<CardGrid cols={3}>
+  <Card title="Precision Jumping">
+    - Use the D-pad for tighter movement.
+    - Consistency is key for tricky platforming.
+  </Card>
+  <Card title="Co-op Synergy">
+    - Assign roles for multiplayer sessions.
+    - One player watches for hidden paths.
+  </Card>
+  <Card title="Settings Optimization">
+    - Adjust camera sensitivity.
+    - Ensure zero input lag for rhythm stages.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Co-op Advantage">
+In 4-player local co-op, use your teammates to reach high areas. One player can act as a platform for another to reach a cage that would be impossible to grab solo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Do Rayman Legends Retold teensies respawn?",
+    answer: "No, once a Teensie is rescued, it is permanently saved to your save file. You do not need to rescue them again if you replay the level."
+  },
+  {
+    question: "How many Teensies are hidden in the sixth realm?",
+    answer: "The mysterious sixth realm contains a significant number of hidden Teensies, many of which are tied to complex environmental puzzles."
+  },
+  {
+    question: "Can I use co-op to farm Teensies?",
+    answer: "Co-op makes it easier to navigate levels and find hidden areas, but the total number of Teensies in each level remains the same regardless of player count."
+  }
+]} />
+
+</Section>
